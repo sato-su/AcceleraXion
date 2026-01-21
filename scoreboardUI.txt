@@ -1,0 +1,1905 @@
+Begin Object Class=/Script/UMG.CanvasPanel Name="CanvasPanel_25" ExportPath=/Script/UMG.CanvasPanel'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.CanvasPanel_25"'
+   Begin Object Class=/Script/UMG.CanvasPanelSlot Name="CanvasPanelSlot_0" ExportPath=/Script/UMG.CanvasPanelSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.CanvasPanel_25.CanvasPanelSlot_0"'
+   End Object
+   Begin Object Class=/Script/UMG.CanvasPanelSlot Name="CanvasPanelSlot_1" ExportPath=/Script/UMG.CanvasPanelSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.CanvasPanel_25.CanvasPanelSlot_1"'
+   End Object
+   Begin Object Name="CanvasPanelSlot_0" ExportPath=/Script/UMG.CanvasPanelSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.CanvasPanel_25.CanvasPanelSlot_0"'
+      LayoutData=(Anchors=(Minimum=(X=0.500000,Y=0.500000),Maximum=(X=0.500000,Y=0.500000)),Alignment=(X=0.500000,Y=0.500000))
+   End Object
+   Begin Object Name="CanvasPanelSlot_1" ExportPath=/Script/UMG.CanvasPanelSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.CanvasPanel_25.CanvasPanelSlot_1"'
+      LayoutData=(Offsets=(Top=22.022022,Right=800.000000,Bottom=306.769714),Anchors=(Minimum=(X=0.500000,Y=0.500000),Maximum=(X=0.500000,Y=0.500000)),Alignment=(X=0.500000,Y=0.500000))
+      Parent=/Script/UMG.CanvasPanel'"CanvasPanel_25"'
+      Content=/Script/UMG.Border'"Border_ScoreBoard"'
+   End Object
+   Slots(0)=/Script/UMG.CanvasPanelSlot'"CanvasPanelSlot_1"'
+   bExpandedInDesigner=True
+End Object
+Begin Object Class=/Script/UMGEditor.WidgetSlotPair Name="WidgetSlotPair_25" ExportPath=/Script/UMGEditor.WidgetSlotPair'"/Engine/Transient.WidgetSlotPair_25"'
+   WidgetName="CanvasPanel_25"
+End Object
+Begin Object Class=/Script/UMG.Border Name="Border_ScoreBoard" ExportPath=/Script/UMG.Border'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.Border_ScoreBoard"'
+   Begin Object Class=/Script/UMG.BorderSlot Name="BorderSlot_0" ExportPath=/Script/UMG.BorderSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.Border_ScoreBoard.BorderSlot_0"'
+   End Object
+   Begin Object Name="BorderSlot_0" ExportPath=/Script/UMG.BorderSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.Border_ScoreBoard.BorderSlot_0"'
+      Padding=(Left=0.000000,Top=0.000000,Right=0.000000,Bottom=0.000000)
+      Parent=/Script/UMG.Border'"Border_ScoreBoard"'
+      Content=/Script/UMG.Overlay'"Overlay_10"'
+   End Object
+   Padding=(Left=0.000000,Top=0.000000,Right=0.000000,Bottom=0.000000)
+   Background=(TintColor=(SpecifiedColor=(R=1.000000,G=1.000000,B=1.000000,A=0.000000)))
+   BrushColor=(R=1.000000,G=1.000000,B=1.000000,A=0.000000)
+   Slots(0)=/Script/UMG.BorderSlot'"BorderSlot_0"'
+   Clipping=ClipToBounds
+   DisplayLabel="Border_ScoreBoard"
+End Object
+Begin Object Class=/Script/UMG.Overlay Name="Overlay_10" ExportPath=/Script/UMG.Overlay'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.Overlay_10"'
+   Begin Object Class=/Script/UMG.OverlaySlot Name="OverlaySlot_8" ExportPath=/Script/UMG.OverlaySlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.Overlay_10.OverlaySlot_8"'
+   End Object
+   Begin Object Class=/Script/UMG.OverlaySlot Name="OverlaySlot_9" ExportPath=/Script/UMG.OverlaySlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.Overlay_10.OverlaySlot_9"'
+   End Object
+   Begin Object Class=/Script/UMG.OverlaySlot Name="OverlaySlot_0" ExportPath=/Script/UMG.OverlaySlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.Overlay_10.OverlaySlot_0"'
+   End Object
+   Begin Object Class=/Script/UMG.OverlaySlot Name="OverlaySlot_1" ExportPath=/Script/UMG.OverlaySlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.Overlay_10.OverlaySlot_1"'
+   End Object
+   Begin Object Name="OverlaySlot_8" ExportPath=/Script/UMG.OverlaySlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.Overlay_10.OverlaySlot_8"'
+      HorizontalAlignment=HAlign_Fill
+      VerticalAlignment=VAlign_Fill
+      Parent=/Script/UMG.Overlay'"Overlay_10"'
+      Content=/Script/UMG.Image'"Image_11"'
+   End Object
+   Begin Object Name="OverlaySlot_9" ExportPath=/Script/UMG.OverlaySlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.Overlay_10.OverlaySlot_9"'
+      HorizontalAlignment=HAlign_Fill
+      VerticalAlignment=VAlign_Fill
+   End Object
+   Begin Object Name="OverlaySlot_0" ExportPath=/Script/UMG.OverlaySlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.Overlay_10.OverlaySlot_0"'
+   End Object
+   Begin Object Name="OverlaySlot_1" ExportPath=/Script/UMG.OverlaySlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.Overlay_10.OverlaySlot_1"'
+      Padding=(Top=5.000000)
+      HorizontalAlignment=HAlign_Fill
+      VerticalAlignment=VAlign_Fill
+      Parent=/Script/UMG.Overlay'"Overlay_10"'
+      Content=/Script/UMG.HorizontalBox'"HorizontalBox_61"'
+   End Object
+   Slots(0)=/Script/UMG.OverlaySlot'"OverlaySlot_8"'
+   Slots(1)=/Script/UMG.OverlaySlot'"OverlaySlot_1"'
+End Object
+Begin Object Class=/Script/UMG.Image Name="Image_11" ExportPath=/Script/UMG.Image'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.Image_11"'
+   Brush=(DrawAs=Box,ImageSize=(X=100.000000,Y=97.146248),Margin=(Left=0.500000,Top=0.500000,Right=0.500000,Bottom=0.500000),ResourceObject=/Script/Engine.Texture2D'"/Game/ui/Images/IMG_PanelBlue.IMG_PanelBlue"')
+   ColorAndOpacity=(R=0.015625,G=0.015625,B=0.015625,A=0.300000)
+   RenderTransform=(Scale=(X=1.100000,Y=1.100000))
+   bIsVariable=False
+   bExpandedInDesigner=True
+   Visibility=SelfHitTestInvisible
+End Object
+Begin Object Class=/Script/UMG.HorizontalBox Name="HorizontalBox_61" ExportPath=/Script/UMG.HorizontalBox'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HorizontalBox_61"'
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_0" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HorizontalBox_61.HorizontalBoxSlot_0"'
+   End Object
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_1" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HorizontalBox_61.HorizontalBoxSlot_1"'
+   End Object
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_2" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HorizontalBox_61.HorizontalBoxSlot_2"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_0" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HorizontalBox_61.HorizontalBoxSlot_0"'
+      Size=(SizeRule=Fill)
+      Parent=/Script/UMG.HorizontalBox'"HorizontalBox_61"'
+      Content=/Script/UMG.VerticalBox'"VerticalBox_57"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_1" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HorizontalBox_61.HorizontalBoxSlot_1"'
+      Size=(SizeRule=Fill)
+      Parent=/Script/UMG.HorizontalBox'"HorizontalBox_61"'
+      Content=/Script/UMG.VerticalBox'"VerticalBox"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_2" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HorizontalBox_61.HorizontalBoxSlot_2"'
+      Parent=/Script/UMG.HorizontalBox'"HorizontalBox_61"'
+      Content=/Script/UMG.Spacer'"Spacer_83"'
+   End Object
+   Slots(0)=/Script/UMG.HorizontalBoxSlot'"HorizontalBoxSlot_0"'
+   Slots(1)=/Script/UMG.HorizontalBoxSlot'"HorizontalBoxSlot_2"'
+   Slots(2)=/Script/UMG.HorizontalBoxSlot'"HorizontalBoxSlot_1"'
+End Object
+Begin Object Class=/Script/UMG.VerticalBox Name="VerticalBox_57" ExportPath=/Script/UMG.VerticalBox'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.VerticalBox_57"'
+   Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_8" ExportPath=/Script/UMG.VerticalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.VerticalBox_57.VerticalBoxSlot_8"'
+   End Object
+   Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_0" ExportPath=/Script/UMG.VerticalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.VerticalBox_57.VerticalBoxSlot_0"'
+   End Object
+   Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_2" ExportPath=/Script/UMG.VerticalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.VerticalBox_57.VerticalBoxSlot_2"'
+   End Object
+   Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_1" ExportPath=/Script/UMG.VerticalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.VerticalBox_57.VerticalBoxSlot_1"'
+   End Object
+   Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_23" ExportPath=/Script/UMG.VerticalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.VerticalBox_57.VerticalBoxSlot_23"'
+   End Object
+   Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_22" ExportPath=/Script/UMG.VerticalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.VerticalBox_57.VerticalBoxSlot_22"'
+   End Object
+   Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_21" ExportPath=/Script/UMG.VerticalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.VerticalBox_57.VerticalBoxSlot_21"'
+   End Object
+   Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_20" ExportPath=/Script/UMG.VerticalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.VerticalBox_57.VerticalBoxSlot_20"'
+   End Object
+   Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_24" ExportPath=/Script/UMG.VerticalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.VerticalBox_57.VerticalBoxSlot_24"'
+   End Object
+   Begin Object Name="VerticalBoxSlot_8" ExportPath=/Script/UMG.VerticalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.VerticalBox_57.VerticalBoxSlot_8"'
+      Parent=/Script/UMG.VerticalBox'"VerticalBox_57"'
+      Content=/Script/UMG.HorizontalBox'"HBox_B_User"'
+   End Object
+   Begin Object Name="VerticalBoxSlot_0" ExportPath=/Script/UMG.VerticalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.VerticalBox_57.VerticalBoxSlot_0"'
+   End Object
+   Begin Object Name="VerticalBoxSlot_2" ExportPath=/Script/UMG.VerticalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.VerticalBox_57.VerticalBoxSlot_2"'
+   End Object
+   Begin Object Name="VerticalBoxSlot_1" ExportPath=/Script/UMG.VerticalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.VerticalBox_57.VerticalBoxSlot_1"'
+      Parent=/Script/UMG.VerticalBox'"VerticalBox_57"'
+      Content=/Script/UMG.HorizontalBox'"HorizontalBox_142"'
+   End Object
+   Begin Object Name="VerticalBoxSlot_23" ExportPath=/Script/UMG.VerticalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.VerticalBox_57.VerticalBoxSlot_23"'
+      Parent=/Script/UMG.VerticalBox'"VerticalBox_57"'
+      Content=/Script/UMG.HorizontalBox'"HBox_B_User_4"'
+   End Object
+   Begin Object Name="VerticalBoxSlot_22" ExportPath=/Script/UMG.VerticalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.VerticalBox_57.VerticalBoxSlot_22"'
+      Parent=/Script/UMG.VerticalBox'"VerticalBox_57"'
+      Content=/Script/UMG.HorizontalBox'"HBox_B_User_3"'
+   End Object
+   Begin Object Name="VerticalBoxSlot_21" ExportPath=/Script/UMG.VerticalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.VerticalBox_57.VerticalBoxSlot_21"'
+      Parent=/Script/UMG.VerticalBox'"VerticalBox_57"'
+      Content=/Script/UMG.HorizontalBox'"HBox_B_User_2"'
+   End Object
+   Begin Object Name="VerticalBoxSlot_20" ExportPath=/Script/UMG.VerticalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.VerticalBox_57.VerticalBoxSlot_20"'
+      Parent=/Script/UMG.VerticalBox'"VerticalBox_57"'
+      Content=/Script/UMG.HorizontalBox'"HBox_B_User_1"'
+   End Object
+   Begin Object Name="VerticalBoxSlot_24" ExportPath=/Script/UMG.VerticalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.VerticalBox_57.VerticalBoxSlot_24"'
+      Parent=/Script/UMG.VerticalBox'"VerticalBox_57"'
+      Content=/Script/UMG.HorizontalBox'"HorizontalBox_1"'
+   End Object
+   Slots(0)=/Script/UMG.VerticalBoxSlot'"VerticalBoxSlot_24"'
+   Slots(1)=/Script/UMG.VerticalBoxSlot'"VerticalBoxSlot_1"'
+   Slots(2)=/Script/UMG.VerticalBoxSlot'"VerticalBoxSlot_8"'
+   Slots(3)=/Script/UMG.VerticalBoxSlot'"VerticalBoxSlot_20"'
+   Slots(4)=/Script/UMG.VerticalBoxSlot'"VerticalBoxSlot_21"'
+   Slots(5)=/Script/UMG.VerticalBoxSlot'"VerticalBoxSlot_22"'
+   Slots(6)=/Script/UMG.VerticalBoxSlot'"VerticalBoxSlot_23"'
+End Object
+Begin Object Class=/Script/UMG.HorizontalBox Name="HorizontalBox_1" ExportPath=/Script/UMG.HorizontalBox'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HorizontalBox_1"'
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_0" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HorizontalBox_1.HorizontalBoxSlot_0"'
+   End Object
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_1" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HorizontalBox_1.HorizontalBoxSlot_1"'
+   End Object
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_2" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HorizontalBox_1.HorizontalBoxSlot_2"'
+   End Object
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_3" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HorizontalBox_1.HorizontalBoxSlot_3"'
+   End Object
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_4" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HorizontalBox_1.HorizontalBoxSlot_4"'
+   End Object
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_5" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HorizontalBox_1.HorizontalBoxSlot_5"'
+   End Object
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_6" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HorizontalBox_1.HorizontalBoxSlot_6"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_0" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HorizontalBox_1.HorizontalBoxSlot_0"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_1" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HorizontalBox_1.HorizontalBoxSlot_1"'
+      Size=(SizeRule=Fill)
+      Parent=/Script/UMG.HorizontalBox'"HorizontalBox_1"'
+      Content=/Script/UMG.SizeBox'"SizeBox_35"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_2" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HorizontalBox_1.HorizontalBoxSlot_2"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_3" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HorizontalBox_1.HorizontalBoxSlot_3"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_4" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HorizontalBox_1.HorizontalBoxSlot_4"'
+      Parent=/Script/UMG.HorizontalBox'"HorizontalBox_1"'
+      Content=/Script/UMG.Spacer'"Spacer_23"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_5" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HorizontalBox_1.HorizontalBoxSlot_5"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_6" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HorizontalBox_1.HorizontalBoxSlot_6"'
+   End Object
+   Slots(0)=/Script/UMG.HorizontalBoxSlot'"HorizontalBoxSlot_1"'
+   Slots(1)=/Script/UMG.HorizontalBoxSlot'"HorizontalBoxSlot_4"'
+   bExpandedInDesigner=True
+End Object
+Begin Object Class=/Script/UMG.SizeBox Name="SizeBox_35" ExportPath=/Script/UMG.SizeBox'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_35"'
+   Begin Object Class=/Script/UMG.SizeBoxSlot Name="SizeBoxSlot_0" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_35.SizeBoxSlot_0"'
+   End Object
+   Begin Object Class=/Script/UMG.SlateAccessibleWidgetData Name="SlateAccessibleWidgetData_0" ExportPath=/Script/UMG.SlateAccessibleWidgetData'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_35.SlateAccessibleWidgetData_0"'
+   End Object
+   Begin Object Class=/Script/UMG.SizeBoxSlot Name="SizeBoxSlot_1" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_35.SizeBoxSlot_1"'
+   End Object
+   Begin Object Name="SizeBoxSlot_0" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_35.SizeBoxSlot_0"'
+   End Object
+   Begin Object Name="SlateAccessibleWidgetData_0" ExportPath=/Script/UMG.SlateAccessibleWidgetData'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_35.SlateAccessibleWidgetData_0"'
+   End Object
+   Begin Object Name="SizeBoxSlot_1" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_35.SizeBoxSlot_1"'
+      HorizontalAlignment=HAlign_Left
+      Parent=/Script/UMG.SizeBox'"SizeBox_35"'
+      Content=/Script/UMG.TextBlock'"TextBlock_5"'
+   End Object
+   WidthOverride=200.000000
+   bOverride_WidthOverride=True
+   Slots(0)=/Script/UMG.SizeBoxSlot'"SizeBoxSlot_1"'
+   bExpandedInDesigner=True
+End Object
+Begin Object Class=/Script/UMG.TextBlock Name="TextBlock_5" ExportPath=/Script/UMG.TextBlock'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.TextBlock_5"'
+   Text=NSLOCTEXT("[447BE350DCB12F36B09844113B5EA4CD]", "BDB1DB874B4F43FFFD6AAEB183CECB88", "Blue Side")
+End Object
+Begin Object Class=/Script/UMG.Spacer Name="Spacer_23" ExportPath=/Script/UMG.Spacer'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.Spacer_23"'
+   Size=(X=5.000000,Y=1.000000)
+End Object
+Begin Object Class=/Script/UMG.HorizontalBox Name="HorizontalBox_142" ExportPath=/Script/UMG.HorizontalBox'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HorizontalBox_142"'
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_6" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HorizontalBox_142.HorizontalBoxSlot_6"'
+   End Object
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_5" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HorizontalBox_142.HorizontalBoxSlot_5"'
+   End Object
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_4" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HorizontalBox_142.HorizontalBoxSlot_4"'
+   End Object
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_3" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HorizontalBox_142.HorizontalBoxSlot_3"'
+   End Object
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_2" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HorizontalBox_142.HorizontalBoxSlot_2"'
+   End Object
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_1" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HorizontalBox_142.HorizontalBoxSlot_1"'
+   End Object
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_0" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HorizontalBox_142.HorizontalBoxSlot_0"'
+   End Object
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_13" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HorizontalBox_142.HorizontalBoxSlot_13"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_6" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HorizontalBox_142.HorizontalBoxSlot_6"'
+      Parent=/Script/UMG.HorizontalBox'"HorizontalBox_142"'
+      Content=/Script/UMG.Spacer'"Spacer"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_5" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HorizontalBox_142.HorizontalBoxSlot_5"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_4" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HorizontalBox_142.HorizontalBoxSlot_4"'
+      Parent=/Script/UMG.HorizontalBox'"HorizontalBox_142"'
+      Content=/Script/UMG.Spacer'"Spacer_148"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_3" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HorizontalBox_142.HorizontalBoxSlot_3"'
+      Parent=/Script/UMG.HorizontalBox'"HorizontalBox_142"'
+      Content=/Script/UMG.SizeBox'"SizeBox_1"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_2" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HorizontalBox_142.HorizontalBoxSlot_2"'
+      Parent=/Script/UMG.HorizontalBox'"HorizontalBox_142"'
+      Content=/Script/UMG.SizeBox'"SizeBox"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_1" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HorizontalBox_142.HorizontalBoxSlot_1"'
+      Parent=/Script/UMG.HorizontalBox'"HorizontalBox_142"'
+      Content=/Script/UMG.SizeBox'"SizeBox_65"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_0" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HorizontalBox_142.HorizontalBoxSlot_0"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_13" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HorizontalBox_142.HorizontalBoxSlot_13"'
+   End Object
+   Slots(0)=/Script/UMG.HorizontalBoxSlot'"HorizontalBoxSlot_1"'
+   Slots(1)=/Script/UMG.HorizontalBoxSlot'"HorizontalBoxSlot_4"'
+   Slots(2)=/Script/UMG.HorizontalBoxSlot'"HorizontalBoxSlot_2"'
+   Slots(3)=/Script/UMG.HorizontalBoxSlot'"HorizontalBoxSlot_6"'
+   Slots(4)=/Script/UMG.HorizontalBoxSlot'"HorizontalBoxSlot_3"'
+   bExpandedInDesigner=True
+End Object
+Begin Object Class=/Script/UMG.SizeBox Name="SizeBox_65" ExportPath=/Script/UMG.SizeBox'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_65"'
+   Begin Object Class=/Script/UMG.SizeBoxSlot Name="SizeBoxSlot_1" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_65.SizeBoxSlot_1"'
+   End Object
+   Begin Object Class=/Script/UMG.SlateAccessibleWidgetData Name="SlateAccessibleWidgetData_0" ExportPath=/Script/UMG.SlateAccessibleWidgetData'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_65.SlateAccessibleWidgetData_0"'
+   End Object
+   Begin Object Class=/Script/UMG.SizeBoxSlot Name="SizeBoxSlot_0" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_65.SizeBoxSlot_0"'
+   End Object
+   Begin Object Name="SizeBoxSlot_1" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_65.SizeBoxSlot_1"'
+      Parent=/Script/UMG.SizeBox'"SizeBox_65"'
+      Content=/Script/UMG.TextBlock'"TextBlock_284"'
+   End Object
+   Begin Object Name="SlateAccessibleWidgetData_0" ExportPath=/Script/UMG.SlateAccessibleWidgetData'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_65.SlateAccessibleWidgetData_0"'
+   End Object
+   Begin Object Name="SizeBoxSlot_0" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_65.SizeBoxSlot_0"'
+   End Object
+   WidthOverride=200.000000
+   bOverride_WidthOverride=True
+   Slots(0)=/Script/UMG.SizeBoxSlot'"SizeBoxSlot_1"'
+   bExpandedInDesigner=True
+End Object
+Begin Object Class=/Script/UMG.TextBlock Name="TextBlock_284" ExportPath=/Script/UMG.TextBlock'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.TextBlock_284"'
+   Text=NSLOCTEXT("[447BE350DCB12F36B09844113B5EA4CD]", "9EE7A6544F5FC5939394C8B23F959B45", "Name")
+End Object
+Begin Object Class=/Script/UMG.Spacer Name="Spacer_148" ExportPath=/Script/UMG.Spacer'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.Spacer_148"'
+   Size=(X=5.000000,Y=1.000000)
+End Object
+Begin Object Class=/Script/UMG.SizeBox Name="SizeBox" ExportPath=/Script/UMG.SizeBox'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox"'
+   Begin Object Class=/Script/UMG.SizeBoxSlot Name="SizeBoxSlot_0" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox.SizeBoxSlot_0"'
+   End Object
+   Begin Object Class=/Script/UMG.SlateAccessibleWidgetData Name="SlateAccessibleWidgetData_0" ExportPath=/Script/UMG.SlateAccessibleWidgetData'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox.SlateAccessibleWidgetData_0"'
+   End Object
+   Begin Object Class=/Script/UMG.SizeBoxSlot Name="SizeBoxSlot_1" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox.SizeBoxSlot_1"'
+   End Object
+   Begin Object Name="SizeBoxSlot_0" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox.SizeBoxSlot_0"'
+   End Object
+   Begin Object Name="SlateAccessibleWidgetData_0" ExportPath=/Script/UMG.SlateAccessibleWidgetData'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox.SlateAccessibleWidgetData_0"'
+   End Object
+   Begin Object Name="SizeBoxSlot_1" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox.SizeBoxSlot_1"'
+      HorizontalAlignment=HAlign_Right
+      Parent=/Script/UMG.SizeBox'"SizeBox"'
+      Content=/Script/UMG.TextBlock'"TextBlock"'
+   End Object
+   WidthOverride=50.000000
+   bOverride_WidthOverride=True
+   Slots(0)=/Script/UMG.SizeBoxSlot'"SizeBoxSlot_1"'
+   bExpandedInDesigner=True
+End Object
+Begin Object Class=/Script/UMG.TextBlock Name="TextBlock" ExportPath=/Script/UMG.TextBlock'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.TextBlock"'
+   Text=NSLOCTEXT("[447BE350DCB12F36B09844113B5EA4CD]", "AF0A3A28410B8424E938C5AF8A52DB57", "Kill")
+End Object
+Begin Object Class=/Script/UMG.Spacer Name="Spacer" ExportPath=/Script/UMG.Spacer'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.Spacer"'
+   Size=(X=5.000000,Y=1.000000)
+End Object
+Begin Object Class=/Script/UMG.SizeBox Name="SizeBox_1" ExportPath=/Script/UMG.SizeBox'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_1"'
+   Begin Object Class=/Script/UMG.SizeBoxSlot Name="SizeBoxSlot_1" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_1.SizeBoxSlot_1"'
+   End Object
+   Begin Object Class=/Script/UMG.SlateAccessibleWidgetData Name="SlateAccessibleWidgetData_0" ExportPath=/Script/UMG.SlateAccessibleWidgetData'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_1.SlateAccessibleWidgetData_0"'
+   End Object
+   Begin Object Class=/Script/UMG.SizeBoxSlot Name="SizeBoxSlot_0" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_1.SizeBoxSlot_0"'
+   End Object
+   Begin Object Name="SizeBoxSlot_1" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_1.SizeBoxSlot_1"'
+      HorizontalAlignment=HAlign_Right
+      Parent=/Script/UMG.SizeBox'"SizeBox_1"'
+      Content=/Script/UMG.TextBlock'"TextBlock_1"'
+   End Object
+   Begin Object Name="SlateAccessibleWidgetData_0" ExportPath=/Script/UMG.SlateAccessibleWidgetData'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_1.SlateAccessibleWidgetData_0"'
+   End Object
+   Begin Object Name="SizeBoxSlot_0" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_1.SizeBoxSlot_0"'
+   End Object
+   WidthOverride=100.000000
+   bOverride_WidthOverride=True
+   Slots(0)=/Script/UMG.SizeBoxSlot'"SizeBoxSlot_1"'
+End Object
+Begin Object Class=/Script/UMG.TextBlock Name="TextBlock_1" ExportPath=/Script/UMG.TextBlock'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.TextBlock_1"'
+   Text=NSLOCTEXT("[447BE350DCB12F36B09844113B5EA4CD]", "45557E684D4E127353E2ED8B50FA8EB2", "Death")
+End Object
+Begin Object Class=/Script/UMG.HorizontalBox Name="HBox_B_User" ExportPath=/Script/UMG.HorizontalBox'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_B_User"'
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_0" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_B_User.HorizontalBoxSlot_0"'
+   End Object
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_1" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_B_User.HorizontalBoxSlot_1"'
+   End Object
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_2" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_B_User.HorizontalBoxSlot_2"'
+   End Object
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_3" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_B_User.HorizontalBoxSlot_3"'
+   End Object
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_4" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_B_User.HorizontalBoxSlot_4"'
+   End Object
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_5" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_B_User.HorizontalBoxSlot_5"'
+   End Object
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_6" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_B_User.HorizontalBoxSlot_6"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_0" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_B_User.HorizontalBoxSlot_0"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_1" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_B_User.HorizontalBoxSlot_1"'
+      Parent=/Script/UMG.HorizontalBox'"HBox_B_User"'
+      Content=/Script/UMG.SizeBox'"SizeBox_2"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_2" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_B_User.HorizontalBoxSlot_2"'
+      Parent=/Script/UMG.HorizontalBox'"HBox_B_User"'
+      Content=/Script/UMG.SizeBox'"SizeBox_3"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_3" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_B_User.HorizontalBoxSlot_3"'
+      Parent=/Script/UMG.HorizontalBox'"HBox_B_User"'
+      Content=/Script/UMG.SizeBox'"SizeBox_4"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_4" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_B_User.HorizontalBoxSlot_4"'
+      Parent=/Script/UMG.HorizontalBox'"HBox_B_User"'
+      Content=/Script/UMG.Spacer'"Spacer_1"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_5" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_B_User.HorizontalBoxSlot_5"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_6" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_B_User.HorizontalBoxSlot_6"'
+      Parent=/Script/UMG.HorizontalBox'"HBox_B_User"'
+      Content=/Script/UMG.Spacer'"Spacer_2"'
+   End Object
+   Slots(0)=/Script/UMG.HorizontalBoxSlot'"HorizontalBoxSlot_1"'
+   Slots(1)=/Script/UMG.HorizontalBoxSlot'"HorizontalBoxSlot_4"'
+   Slots(2)=/Script/UMG.HorizontalBoxSlot'"HorizontalBoxSlot_2"'
+   Slots(3)=/Script/UMG.HorizontalBoxSlot'"HorizontalBoxSlot_6"'
+   Slots(4)=/Script/UMG.HorizontalBoxSlot'"HorizontalBoxSlot_3"'
+   bIsVariable=True
+   bExpandedInDesigner=True
+   DisplayLabel="HBox_B_User"
+End Object
+Begin Object Class=/Script/UMG.SizeBox Name="SizeBox_2" ExportPath=/Script/UMG.SizeBox'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_2"'
+   Begin Object Class=/Script/UMG.SizeBoxSlot Name="SizeBoxSlot_0" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_2.SizeBoxSlot_0"'
+   End Object
+   Begin Object Class=/Script/UMG.SlateAccessibleWidgetData Name="SlateAccessibleWidgetData_0" ExportPath=/Script/UMG.SlateAccessibleWidgetData'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_2.SlateAccessibleWidgetData_0"'
+   End Object
+   Begin Object Class=/Script/UMG.SizeBoxSlot Name="SizeBoxSlot_1" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_2.SizeBoxSlot_1"'
+   End Object
+   Begin Object Name="SizeBoxSlot_0" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_2.SizeBoxSlot_0"'
+   End Object
+   Begin Object Name="SlateAccessibleWidgetData_0" ExportPath=/Script/UMG.SlateAccessibleWidgetData'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_2.SlateAccessibleWidgetData_0"'
+   End Object
+   Begin Object Name="SizeBoxSlot_1" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_2.SizeBoxSlot_1"'
+      Parent=/Script/UMG.SizeBox'"SizeBox_2"'
+      Content=/Script/UMG.TextBlock'"TXT_Name_B_User"'
+   End Object
+   WidthOverride=200.000000
+   bOverride_WidthOverride=True
+   Slots(0)=/Script/UMG.SizeBoxSlot'"SizeBoxSlot_1"'
+   bExpandedInDesigner=True
+End Object
+Begin Object Class=/Script/UMG.TextBlock Name="TXT_Name_B_User" ExportPath=/Script/UMG.TextBlock'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.TXT_Name_B_User"'
+   Text=NSLOCTEXT("[447BE350DCB12F36B09844113B5EA4CD]", "83F41B074D1F2F6705E5E093128C5181", "User1")
+   bIsVariable=True
+   DisplayLabel="TXT_Name_B_User"
+End Object
+Begin Object Class=/Script/UMG.Spacer Name="Spacer_1" ExportPath=/Script/UMG.Spacer'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.Spacer_1"'
+   Size=(X=5.000000,Y=1.000000)
+End Object
+Begin Object Class=/Script/UMG.SizeBox Name="SizeBox_3" ExportPath=/Script/UMG.SizeBox'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_3"'
+   Begin Object Class=/Script/UMG.SizeBoxSlot Name="SizeBoxSlot_1" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_3.SizeBoxSlot_1"'
+   End Object
+   Begin Object Class=/Script/UMG.SlateAccessibleWidgetData Name="SlateAccessibleWidgetData_0" ExportPath=/Script/UMG.SlateAccessibleWidgetData'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_3.SlateAccessibleWidgetData_0"'
+   End Object
+   Begin Object Class=/Script/UMG.SizeBoxSlot Name="SizeBoxSlot_0" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_3.SizeBoxSlot_0"'
+   End Object
+   Begin Object Name="SizeBoxSlot_1" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_3.SizeBoxSlot_1"'
+      HorizontalAlignment=HAlign_Right
+      Parent=/Script/UMG.SizeBox'"SizeBox_3"'
+      Content=/Script/UMG.TextBlock'"TXT_Kill_B_User"'
+   End Object
+   Begin Object Name="SlateAccessibleWidgetData_0" ExportPath=/Script/UMG.SlateAccessibleWidgetData'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_3.SlateAccessibleWidgetData_0"'
+   End Object
+   Begin Object Name="SizeBoxSlot_0" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_3.SizeBoxSlot_0"'
+   End Object
+   WidthOverride=50.000000
+   bOverride_WidthOverride=True
+   Slots(0)=/Script/UMG.SizeBoxSlot'"SizeBoxSlot_1"'
+   bExpandedInDesigner=True
+End Object
+Begin Object Class=/Script/UMG.TextBlock Name="TXT_Kill_B_User" ExportPath=/Script/UMG.TextBlock'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.TXT_Kill_B_User"'
+   Text=NSLOCTEXT("[447BE350DCB12F36B09844113B5EA4CD]", "AF545E3444FFC61A2336EA887E62DD98", "0")
+   bIsVariable=True
+   DisplayLabel="TXT_Kill_B_User"
+End Object
+Begin Object Class=/Script/UMG.Spacer Name="Spacer_2" ExportPath=/Script/UMG.Spacer'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.Spacer_2"'
+   Size=(X=5.000000,Y=1.000000)
+End Object
+Begin Object Class=/Script/UMG.SizeBox Name="SizeBox_4" ExportPath=/Script/UMG.SizeBox'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_4"'
+   Begin Object Class=/Script/UMG.SizeBoxSlot Name="SizeBoxSlot_0" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_4.SizeBoxSlot_0"'
+   End Object
+   Begin Object Class=/Script/UMG.SlateAccessibleWidgetData Name="SlateAccessibleWidgetData_0" ExportPath=/Script/UMG.SlateAccessibleWidgetData'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_4.SlateAccessibleWidgetData_0"'
+   End Object
+   Begin Object Class=/Script/UMG.SizeBoxSlot Name="SizeBoxSlot_1" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_4.SizeBoxSlot_1"'
+   End Object
+   Begin Object Name="SizeBoxSlot_0" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_4.SizeBoxSlot_0"'
+   End Object
+   Begin Object Name="SlateAccessibleWidgetData_0" ExportPath=/Script/UMG.SlateAccessibleWidgetData'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_4.SlateAccessibleWidgetData_0"'
+   End Object
+   Begin Object Name="SizeBoxSlot_1" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_4.SizeBoxSlot_1"'
+      HorizontalAlignment=HAlign_Right
+      Parent=/Script/UMG.SizeBox'"SizeBox_4"'
+      Content=/Script/UMG.TextBlock'"TXT_Death_B_User"'
+   End Object
+   WidthOverride=100.000000
+   bOverride_WidthOverride=True
+   Slots(0)=/Script/UMG.SizeBoxSlot'"SizeBoxSlot_1"'
+   bExpandedInDesigner=True
+End Object
+Begin Object Class=/Script/UMG.TextBlock Name="TXT_Death_B_User" ExportPath=/Script/UMG.TextBlock'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.TXT_Death_B_User"'
+   Text=NSLOCTEXT("[447BE350DCB12F36B09844113B5EA4CD]", "F1E06A864C6F7210DAD0F0B0F88A0285", "0")
+   bIsVariable=True
+   DisplayLabel="TXT_Death_B_User"
+End Object
+Begin Object Class=/Script/UMG.HorizontalBox Name="HBox_B_User_1" ExportPath=/Script/UMG.HorizontalBox'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_B_User_1"'
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_6" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_B_User_1.HorizontalBoxSlot_6"'
+   End Object
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_5" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_B_User_1.HorizontalBoxSlot_5"'
+   End Object
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_4" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_B_User_1.HorizontalBoxSlot_4"'
+   End Object
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_3" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_B_User_1.HorizontalBoxSlot_3"'
+   End Object
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_2" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_B_User_1.HorizontalBoxSlot_2"'
+   End Object
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_1" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_B_User_1.HorizontalBoxSlot_1"'
+   End Object
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_0" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_B_User_1.HorizontalBoxSlot_0"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_6" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_B_User_1.HorizontalBoxSlot_6"'
+      Parent=/Script/UMG.HorizontalBox'"HBox_B_User_1"'
+      Content=/Script/UMG.Spacer'"Spacer_4"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_5" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_B_User_1.HorizontalBoxSlot_5"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_4" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_B_User_1.HorizontalBoxSlot_4"'
+      Parent=/Script/UMG.HorizontalBox'"HBox_B_User_1"'
+      Content=/Script/UMG.Spacer'"Spacer_3"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_3" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_B_User_1.HorizontalBoxSlot_3"'
+      Parent=/Script/UMG.HorizontalBox'"HBox_B_User_1"'
+      Content=/Script/UMG.SizeBox'"SizeBox_7"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_2" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_B_User_1.HorizontalBoxSlot_2"'
+      Parent=/Script/UMG.HorizontalBox'"HBox_B_User_1"'
+      Content=/Script/UMG.SizeBox'"SizeBox_6"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_1" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_B_User_1.HorizontalBoxSlot_1"'
+      Parent=/Script/UMG.HorizontalBox'"HBox_B_User_1"'
+      Content=/Script/UMG.SizeBox'"SizeBox_5"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_0" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_B_User_1.HorizontalBoxSlot_0"'
+   End Object
+   Slots(0)=/Script/UMG.HorizontalBoxSlot'"HorizontalBoxSlot_1"'
+   Slots(1)=/Script/UMG.HorizontalBoxSlot'"HorizontalBoxSlot_4"'
+   Slots(2)=/Script/UMG.HorizontalBoxSlot'"HorizontalBoxSlot_2"'
+   Slots(3)=/Script/UMG.HorizontalBoxSlot'"HorizontalBoxSlot_6"'
+   Slots(4)=/Script/UMG.HorizontalBoxSlot'"HorizontalBoxSlot_3"'
+   bIsVariable=True
+   DisplayLabel="HBox_B_User_1"
+End Object
+Begin Object Class=/Script/UMG.SizeBox Name="SizeBox_5" ExportPath=/Script/UMG.SizeBox'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_5"'
+   Begin Object Class=/Script/UMG.SizeBoxSlot Name="SizeBoxSlot_1" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_5.SizeBoxSlot_1"'
+   End Object
+   Begin Object Class=/Script/UMG.SlateAccessibleWidgetData Name="SlateAccessibleWidgetData_0" ExportPath=/Script/UMG.SlateAccessibleWidgetData'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_5.SlateAccessibleWidgetData_0"'
+   End Object
+   Begin Object Class=/Script/UMG.SizeBoxSlot Name="SizeBoxSlot_0" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_5.SizeBoxSlot_0"'
+   End Object
+   Begin Object Name="SizeBoxSlot_1" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_5.SizeBoxSlot_1"'
+      Parent=/Script/UMG.SizeBox'"SizeBox_5"'
+      Content=/Script/UMG.TextBlock'"TXT_Name_B_User_1"'
+   End Object
+   Begin Object Name="SlateAccessibleWidgetData_0" ExportPath=/Script/UMG.SlateAccessibleWidgetData'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_5.SlateAccessibleWidgetData_0"'
+   End Object
+   Begin Object Name="SizeBoxSlot_0" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_5.SizeBoxSlot_0"'
+   End Object
+   WidthOverride=200.000000
+   bOverride_WidthOverride=True
+   Slots(0)=/Script/UMG.SizeBoxSlot'"SizeBoxSlot_1"'
+   bExpandedInDesigner=True
+End Object
+Begin Object Class=/Script/UMG.TextBlock Name="TXT_Name_B_User_1" ExportPath=/Script/UMG.TextBlock'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.TXT_Name_B_User_1"'
+   Text=NSLOCTEXT("[447BE350DCB12F36B09844113B5EA4CD]", "6DAEF46244161FACFBB066B7B7AA6C33", "User2")
+   bIsVariable=True
+   DisplayLabel="TXT_Name_B_User_1"
+End Object
+Begin Object Class=/Script/UMG.Spacer Name="Spacer_3" ExportPath=/Script/UMG.Spacer'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.Spacer_3"'
+   Size=(X=5.000000,Y=1.000000)
+End Object
+Begin Object Class=/Script/UMG.SizeBox Name="SizeBox_6" ExportPath=/Script/UMG.SizeBox'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_6"'
+   Begin Object Class=/Script/UMG.SizeBoxSlot Name="SizeBoxSlot_0" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_6.SizeBoxSlot_0"'
+   End Object
+   Begin Object Class=/Script/UMG.SlateAccessibleWidgetData Name="SlateAccessibleWidgetData_0" ExportPath=/Script/UMG.SlateAccessibleWidgetData'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_6.SlateAccessibleWidgetData_0"'
+   End Object
+   Begin Object Class=/Script/UMG.SizeBoxSlot Name="SizeBoxSlot_1" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_6.SizeBoxSlot_1"'
+   End Object
+   Begin Object Name="SizeBoxSlot_0" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_6.SizeBoxSlot_0"'
+   End Object
+   Begin Object Name="SlateAccessibleWidgetData_0" ExportPath=/Script/UMG.SlateAccessibleWidgetData'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_6.SlateAccessibleWidgetData_0"'
+   End Object
+   Begin Object Name="SizeBoxSlot_1" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_6.SizeBoxSlot_1"'
+      HorizontalAlignment=HAlign_Right
+      Parent=/Script/UMG.SizeBox'"SizeBox_6"'
+      Content=/Script/UMG.TextBlock'"TXT_Kill_B_User_1"'
+   End Object
+   WidthOverride=50.000000
+   bOverride_WidthOverride=True
+   Slots(0)=/Script/UMG.SizeBoxSlot'"SizeBoxSlot_1"'
+   bExpandedInDesigner=True
+End Object
+Begin Object Class=/Script/UMG.TextBlock Name="TXT_Kill_B_User_1" ExportPath=/Script/UMG.TextBlock'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.TXT_Kill_B_User_1"'
+   Text=NSLOCTEXT("[447BE350DCB12F36B09844113B5EA4CD]", "AF545E3444FFC61A2336EA887E62DD98", "0")
+   bIsVariable=True
+   DisplayLabel="TXT_Kill_B_User_1"
+End Object
+Begin Object Class=/Script/UMG.Spacer Name="Spacer_4" ExportPath=/Script/UMG.Spacer'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.Spacer_4"'
+   Size=(X=5.000000,Y=1.000000)
+End Object
+Begin Object Class=/Script/UMG.SizeBox Name="SizeBox_7" ExportPath=/Script/UMG.SizeBox'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_7"'
+   Begin Object Class=/Script/UMG.SizeBoxSlot Name="SizeBoxSlot_1" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_7.SizeBoxSlot_1"'
+   End Object
+   Begin Object Class=/Script/UMG.SlateAccessibleWidgetData Name="SlateAccessibleWidgetData_0" ExportPath=/Script/UMG.SlateAccessibleWidgetData'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_7.SlateAccessibleWidgetData_0"'
+   End Object
+   Begin Object Class=/Script/UMG.SizeBoxSlot Name="SizeBoxSlot_0" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_7.SizeBoxSlot_0"'
+   End Object
+   Begin Object Name="SizeBoxSlot_1" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_7.SizeBoxSlot_1"'
+      HorizontalAlignment=HAlign_Right
+      Parent=/Script/UMG.SizeBox'"SizeBox_7"'
+      Content=/Script/UMG.TextBlock'"TXT_Death_B_User_1"'
+   End Object
+   Begin Object Name="SlateAccessibleWidgetData_0" ExportPath=/Script/UMG.SlateAccessibleWidgetData'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_7.SlateAccessibleWidgetData_0"'
+   End Object
+   Begin Object Name="SizeBoxSlot_0" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_7.SizeBoxSlot_0"'
+   End Object
+   WidthOverride=100.000000
+   bOverride_WidthOverride=True
+   Slots(0)=/Script/UMG.SizeBoxSlot'"SizeBoxSlot_1"'
+   bExpandedInDesigner=True
+End Object
+Begin Object Class=/Script/UMG.TextBlock Name="TXT_Death_B_User_1" ExportPath=/Script/UMG.TextBlock'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.TXT_Death_B_User_1"'
+   Text=NSLOCTEXT("[447BE350DCB12F36B09844113B5EA4CD]", "F1E06A864C6F7210DAD0F0B0F88A0285", "0")
+   bIsVariable=True
+   DisplayLabel="TXT_Death_B_User_1"
+End Object
+Begin Object Class=/Script/UMG.HorizontalBox Name="HBox_B_User_2" ExportPath=/Script/UMG.HorizontalBox'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_B_User_2"'
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_6" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_B_User_2.HorizontalBoxSlot_6"'
+   End Object
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_5" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_B_User_2.HorizontalBoxSlot_5"'
+   End Object
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_4" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_B_User_2.HorizontalBoxSlot_4"'
+   End Object
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_3" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_B_User_2.HorizontalBoxSlot_3"'
+   End Object
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_2" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_B_User_2.HorizontalBoxSlot_2"'
+   End Object
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_1" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_B_User_2.HorizontalBoxSlot_1"'
+   End Object
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_0" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_B_User_2.HorizontalBoxSlot_0"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_6" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_B_User_2.HorizontalBoxSlot_6"'
+      Parent=/Script/UMG.HorizontalBox'"HBox_B_User_2"'
+      Content=/Script/UMG.Spacer'"Spacer_6"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_5" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_B_User_2.HorizontalBoxSlot_5"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_4" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_B_User_2.HorizontalBoxSlot_4"'
+      Parent=/Script/UMG.HorizontalBox'"HBox_B_User_2"'
+      Content=/Script/UMG.Spacer'"Spacer_5"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_3" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_B_User_2.HorizontalBoxSlot_3"'
+      Parent=/Script/UMG.HorizontalBox'"HBox_B_User_2"'
+      Content=/Script/UMG.SizeBox'"SizeBox_10"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_2" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_B_User_2.HorizontalBoxSlot_2"'
+      Parent=/Script/UMG.HorizontalBox'"HBox_B_User_2"'
+      Content=/Script/UMG.SizeBox'"SizeBox_9"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_1" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_B_User_2.HorizontalBoxSlot_1"'
+      Parent=/Script/UMG.HorizontalBox'"HBox_B_User_2"'
+      Content=/Script/UMG.SizeBox'"SizeBox_8"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_0" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_B_User_2.HorizontalBoxSlot_0"'
+   End Object
+   Slots(0)=/Script/UMG.HorizontalBoxSlot'"HorizontalBoxSlot_1"'
+   Slots(1)=/Script/UMG.HorizontalBoxSlot'"HorizontalBoxSlot_4"'
+   Slots(2)=/Script/UMG.HorizontalBoxSlot'"HorizontalBoxSlot_2"'
+   Slots(3)=/Script/UMG.HorizontalBoxSlot'"HorizontalBoxSlot_6"'
+   Slots(4)=/Script/UMG.HorizontalBoxSlot'"HorizontalBoxSlot_3"'
+   bIsVariable=True
+   DisplayLabel="HBox_B_User_2"
+End Object
+Begin Object Class=/Script/UMG.SizeBox Name="SizeBox_8" ExportPath=/Script/UMG.SizeBox'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_8"'
+   Begin Object Class=/Script/UMG.SizeBoxSlot Name="SizeBoxSlot_1" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_8.SizeBoxSlot_1"'
+   End Object
+   Begin Object Class=/Script/UMG.SlateAccessibleWidgetData Name="SlateAccessibleWidgetData_0" ExportPath=/Script/UMG.SlateAccessibleWidgetData'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_8.SlateAccessibleWidgetData_0"'
+   End Object
+   Begin Object Class=/Script/UMG.SizeBoxSlot Name="SizeBoxSlot_0" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_8.SizeBoxSlot_0"'
+   End Object
+   Begin Object Name="SizeBoxSlot_1" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_8.SizeBoxSlot_1"'
+      Parent=/Script/UMG.SizeBox'"SizeBox_8"'
+      Content=/Script/UMG.TextBlock'"TXT_Name_B_User_2"'
+   End Object
+   Begin Object Name="SlateAccessibleWidgetData_0" ExportPath=/Script/UMG.SlateAccessibleWidgetData'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_8.SlateAccessibleWidgetData_0"'
+   End Object
+   Begin Object Name="SizeBoxSlot_0" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_8.SizeBoxSlot_0"'
+   End Object
+   WidthOverride=200.000000
+   bOverride_WidthOverride=True
+   Slots(0)=/Script/UMG.SizeBoxSlot'"SizeBoxSlot_1"'
+   bExpandedInDesigner=True
+End Object
+Begin Object Class=/Script/UMG.TextBlock Name="TXT_Name_B_User_2" ExportPath=/Script/UMG.TextBlock'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.TXT_Name_B_User_2"'
+   Text=NSLOCTEXT("[447BE350DCB12F36B09844113B5EA4CD]", "B77DABC843A06ADEE7A12EA9472FD581", "User3")
+   bIsVariable=True
+   DisplayLabel="TXT_Name_B_User_2"
+End Object
+Begin Object Class=/Script/UMG.Spacer Name="Spacer_5" ExportPath=/Script/UMG.Spacer'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.Spacer_5"'
+   Size=(X=5.000000,Y=1.000000)
+End Object
+Begin Object Class=/Script/UMG.SizeBox Name="SizeBox_9" ExportPath=/Script/UMG.SizeBox'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_9"'
+   Begin Object Class=/Script/UMG.SizeBoxSlot Name="SizeBoxSlot_0" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_9.SizeBoxSlot_0"'
+   End Object
+   Begin Object Class=/Script/UMG.SlateAccessibleWidgetData Name="SlateAccessibleWidgetData_0" ExportPath=/Script/UMG.SlateAccessibleWidgetData'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_9.SlateAccessibleWidgetData_0"'
+   End Object
+   Begin Object Class=/Script/UMG.SizeBoxSlot Name="SizeBoxSlot_1" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_9.SizeBoxSlot_1"'
+   End Object
+   Begin Object Name="SizeBoxSlot_0" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_9.SizeBoxSlot_0"'
+   End Object
+   Begin Object Name="SlateAccessibleWidgetData_0" ExportPath=/Script/UMG.SlateAccessibleWidgetData'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_9.SlateAccessibleWidgetData_0"'
+   End Object
+   Begin Object Name="SizeBoxSlot_1" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_9.SizeBoxSlot_1"'
+      HorizontalAlignment=HAlign_Right
+      Parent=/Script/UMG.SizeBox'"SizeBox_9"'
+      Content=/Script/UMG.TextBlock'"TXT_Kill_B_User_2"'
+   End Object
+   WidthOverride=50.000000
+   bOverride_WidthOverride=True
+   Slots(0)=/Script/UMG.SizeBoxSlot'"SizeBoxSlot_1"'
+   bExpandedInDesigner=True
+End Object
+Begin Object Class=/Script/UMG.TextBlock Name="TXT_Kill_B_User_2" ExportPath=/Script/UMG.TextBlock'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.TXT_Kill_B_User_2"'
+   Text=NSLOCTEXT("[447BE350DCB12F36B09844113B5EA4CD]", "AF545E3444FFC61A2336EA887E62DD98", "0")
+   bIsVariable=True
+   DisplayLabel="TXT_Kill_B_User_2"
+End Object
+Begin Object Class=/Script/UMG.Spacer Name="Spacer_6" ExportPath=/Script/UMG.Spacer'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.Spacer_6"'
+   Size=(X=5.000000,Y=1.000000)
+End Object
+Begin Object Class=/Script/UMG.SizeBox Name="SizeBox_10" ExportPath=/Script/UMG.SizeBox'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_10"'
+   Begin Object Class=/Script/UMG.SizeBoxSlot Name="SizeBoxSlot_1" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_10.SizeBoxSlot_1"'
+   End Object
+   Begin Object Class=/Script/UMG.SlateAccessibleWidgetData Name="SlateAccessibleWidgetData_0" ExportPath=/Script/UMG.SlateAccessibleWidgetData'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_10.SlateAccessibleWidgetData_0"'
+   End Object
+   Begin Object Class=/Script/UMG.SizeBoxSlot Name="SizeBoxSlot_0" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_10.SizeBoxSlot_0"'
+   End Object
+   Begin Object Name="SizeBoxSlot_1" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_10.SizeBoxSlot_1"'
+      HorizontalAlignment=HAlign_Right
+      Parent=/Script/UMG.SizeBox'"SizeBox_10"'
+      Content=/Script/UMG.TextBlock'"TXT_Death_B_User_2"'
+   End Object
+   Begin Object Name="SlateAccessibleWidgetData_0" ExportPath=/Script/UMG.SlateAccessibleWidgetData'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_10.SlateAccessibleWidgetData_0"'
+   End Object
+   Begin Object Name="SizeBoxSlot_0" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_10.SizeBoxSlot_0"'
+   End Object
+   WidthOverride=100.000000
+   bOverride_WidthOverride=True
+   Slots(0)=/Script/UMG.SizeBoxSlot'"SizeBoxSlot_1"'
+   bExpandedInDesigner=True
+End Object
+Begin Object Class=/Script/UMG.TextBlock Name="TXT_Death_B_User_2" ExportPath=/Script/UMG.TextBlock'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.TXT_Death_B_User_2"'
+   Text=NSLOCTEXT("[447BE350DCB12F36B09844113B5EA4CD]", "F1E06A864C6F7210DAD0F0B0F88A0285", "0")
+   bIsVariable=True
+   DisplayLabel="TXT_Death_B_User_2"
+End Object
+Begin Object Class=/Script/UMG.HorizontalBox Name="HBox_B_User_3" ExportPath=/Script/UMG.HorizontalBox'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_B_User_3"'
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_6" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_B_User_3.HorizontalBoxSlot_6"'
+   End Object
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_5" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_B_User_3.HorizontalBoxSlot_5"'
+   End Object
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_4" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_B_User_3.HorizontalBoxSlot_4"'
+   End Object
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_3" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_B_User_3.HorizontalBoxSlot_3"'
+   End Object
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_2" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_B_User_3.HorizontalBoxSlot_2"'
+   End Object
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_1" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_B_User_3.HorizontalBoxSlot_1"'
+   End Object
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_0" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_B_User_3.HorizontalBoxSlot_0"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_6" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_B_User_3.HorizontalBoxSlot_6"'
+      Parent=/Script/UMG.HorizontalBox'"HBox_B_User_3"'
+      Content=/Script/UMG.Spacer'"Spacer_8"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_5" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_B_User_3.HorizontalBoxSlot_5"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_4" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_B_User_3.HorizontalBoxSlot_4"'
+      Parent=/Script/UMG.HorizontalBox'"HBox_B_User_3"'
+      Content=/Script/UMG.Spacer'"Spacer_7"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_3" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_B_User_3.HorizontalBoxSlot_3"'
+      Parent=/Script/UMG.HorizontalBox'"HBox_B_User_3"'
+      Content=/Script/UMG.SizeBox'"SizeBox_13"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_2" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_B_User_3.HorizontalBoxSlot_2"'
+      Parent=/Script/UMG.HorizontalBox'"HBox_B_User_3"'
+      Content=/Script/UMG.SizeBox'"SizeBox_12"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_1" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_B_User_3.HorizontalBoxSlot_1"'
+      Parent=/Script/UMG.HorizontalBox'"HBox_B_User_3"'
+      Content=/Script/UMG.SizeBox'"SizeBox_11"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_0" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_B_User_3.HorizontalBoxSlot_0"'
+   End Object
+   Slots(0)=/Script/UMG.HorizontalBoxSlot'"HorizontalBoxSlot_1"'
+   Slots(1)=/Script/UMG.HorizontalBoxSlot'"HorizontalBoxSlot_4"'
+   Slots(2)=/Script/UMG.HorizontalBoxSlot'"HorizontalBoxSlot_2"'
+   Slots(3)=/Script/UMG.HorizontalBoxSlot'"HorizontalBoxSlot_6"'
+   Slots(4)=/Script/UMG.HorizontalBoxSlot'"HorizontalBoxSlot_3"'
+   bIsVariable=True
+   DisplayLabel="HBox_B_User_3"
+End Object
+Begin Object Class=/Script/UMG.SizeBox Name="SizeBox_11" ExportPath=/Script/UMG.SizeBox'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_11"'
+   Begin Object Class=/Script/UMG.SizeBoxSlot Name="SizeBoxSlot_1" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_11.SizeBoxSlot_1"'
+   End Object
+   Begin Object Class=/Script/UMG.SlateAccessibleWidgetData Name="SlateAccessibleWidgetData_0" ExportPath=/Script/UMG.SlateAccessibleWidgetData'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_11.SlateAccessibleWidgetData_0"'
+   End Object
+   Begin Object Class=/Script/UMG.SizeBoxSlot Name="SizeBoxSlot_0" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_11.SizeBoxSlot_0"'
+   End Object
+   Begin Object Name="SizeBoxSlot_1" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_11.SizeBoxSlot_1"'
+      Parent=/Script/UMG.SizeBox'"SizeBox_11"'
+      Content=/Script/UMG.TextBlock'"TXT_Name_B_User_3"'
+   End Object
+   Begin Object Name="SlateAccessibleWidgetData_0" ExportPath=/Script/UMG.SlateAccessibleWidgetData'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_11.SlateAccessibleWidgetData_0"'
+   End Object
+   Begin Object Name="SizeBoxSlot_0" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_11.SizeBoxSlot_0"'
+   End Object
+   WidthOverride=200.000000
+   bOverride_WidthOverride=True
+   Slots(0)=/Script/UMG.SizeBoxSlot'"SizeBoxSlot_1"'
+   bExpandedInDesigner=True
+End Object
+Begin Object Class=/Script/UMG.TextBlock Name="TXT_Name_B_User_3" ExportPath=/Script/UMG.TextBlock'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.TXT_Name_B_User_3"'
+   Text=NSLOCTEXT("[447BE350DCB12F36B09844113B5EA4CD]", "7BFD3B1C4B344A66352F7096EA2ED3E8", "User4")
+   bIsVariable=True
+   DisplayLabel="TXT_Name_B_User_3"
+End Object
+Begin Object Class=/Script/UMG.Spacer Name="Spacer_7" ExportPath=/Script/UMG.Spacer'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.Spacer_7"'
+   Size=(X=5.000000,Y=1.000000)
+End Object
+Begin Object Class=/Script/UMG.SizeBox Name="SizeBox_12" ExportPath=/Script/UMG.SizeBox'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_12"'
+   Begin Object Class=/Script/UMG.SizeBoxSlot Name="SizeBoxSlot_0" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_12.SizeBoxSlot_0"'
+   End Object
+   Begin Object Class=/Script/UMG.SlateAccessibleWidgetData Name="SlateAccessibleWidgetData_0" ExportPath=/Script/UMG.SlateAccessibleWidgetData'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_12.SlateAccessibleWidgetData_0"'
+   End Object
+   Begin Object Class=/Script/UMG.SizeBoxSlot Name="SizeBoxSlot_1" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_12.SizeBoxSlot_1"'
+   End Object
+   Begin Object Name="SizeBoxSlot_0" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_12.SizeBoxSlot_0"'
+   End Object
+   Begin Object Name="SlateAccessibleWidgetData_0" ExportPath=/Script/UMG.SlateAccessibleWidgetData'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_12.SlateAccessibleWidgetData_0"'
+   End Object
+   Begin Object Name="SizeBoxSlot_1" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_12.SizeBoxSlot_1"'
+      HorizontalAlignment=HAlign_Right
+      Parent=/Script/UMG.SizeBox'"SizeBox_12"'
+      Content=/Script/UMG.TextBlock'"TXT_Kill_B_User_3"'
+   End Object
+   WidthOverride=50.000000
+   bOverride_WidthOverride=True
+   Slots(0)=/Script/UMG.SizeBoxSlot'"SizeBoxSlot_1"'
+   bExpandedInDesigner=True
+End Object
+Begin Object Class=/Script/UMG.TextBlock Name="TXT_Kill_B_User_3" ExportPath=/Script/UMG.TextBlock'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.TXT_Kill_B_User_3"'
+   Text=NSLOCTEXT("[447BE350DCB12F36B09844113B5EA4CD]", "AF545E3444FFC61A2336EA887E62DD98", "0")
+   bIsVariable=True
+   DisplayLabel="TXT_Kill_B_User_3"
+End Object
+Begin Object Class=/Script/UMG.Spacer Name="Spacer_8" ExportPath=/Script/UMG.Spacer'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.Spacer_8"'
+   Size=(X=5.000000,Y=1.000000)
+End Object
+Begin Object Class=/Script/UMG.SizeBox Name="SizeBox_13" ExportPath=/Script/UMG.SizeBox'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_13"'
+   Begin Object Class=/Script/UMG.SizeBoxSlot Name="SizeBoxSlot_1" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_13.SizeBoxSlot_1"'
+   End Object
+   Begin Object Class=/Script/UMG.SlateAccessibleWidgetData Name="SlateAccessibleWidgetData_0" ExportPath=/Script/UMG.SlateAccessibleWidgetData'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_13.SlateAccessibleWidgetData_0"'
+   End Object
+   Begin Object Class=/Script/UMG.SizeBoxSlot Name="SizeBoxSlot_0" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_13.SizeBoxSlot_0"'
+   End Object
+   Begin Object Name="SizeBoxSlot_1" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_13.SizeBoxSlot_1"'
+      HorizontalAlignment=HAlign_Right
+      Parent=/Script/UMG.SizeBox'"SizeBox_13"'
+      Content=/Script/UMG.TextBlock'"TXT_Death_B_User_3"'
+   End Object
+   Begin Object Name="SlateAccessibleWidgetData_0" ExportPath=/Script/UMG.SlateAccessibleWidgetData'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_13.SlateAccessibleWidgetData_0"'
+   End Object
+   Begin Object Name="SizeBoxSlot_0" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_13.SizeBoxSlot_0"'
+   End Object
+   WidthOverride=100.000000
+   bOverride_WidthOverride=True
+   Slots(0)=/Script/UMG.SizeBoxSlot'"SizeBoxSlot_1"'
+   bExpandedInDesigner=True
+End Object
+Begin Object Class=/Script/UMG.TextBlock Name="TXT_Death_B_User_3" ExportPath=/Script/UMG.TextBlock'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.TXT_Death_B_User_3"'
+   Text=NSLOCTEXT("[447BE350DCB12F36B09844113B5EA4CD]", "F1E06A864C6F7210DAD0F0B0F88A0285", "0")
+   bIsVariable=True
+   DisplayLabel="TXT_Death_B_User_3"
+End Object
+Begin Object Class=/Script/UMG.HorizontalBox Name="HBox_B_User_4" ExportPath=/Script/UMG.HorizontalBox'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_B_User_4"'
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_6" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_B_User_4.HorizontalBoxSlot_6"'
+   End Object
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_5" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_B_User_4.HorizontalBoxSlot_5"'
+   End Object
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_4" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_B_User_4.HorizontalBoxSlot_4"'
+   End Object
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_3" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_B_User_4.HorizontalBoxSlot_3"'
+   End Object
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_2" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_B_User_4.HorizontalBoxSlot_2"'
+   End Object
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_1" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_B_User_4.HorizontalBoxSlot_1"'
+   End Object
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_0" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_B_User_4.HorizontalBoxSlot_0"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_6" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_B_User_4.HorizontalBoxSlot_6"'
+      Parent=/Script/UMG.HorizontalBox'"HBox_B_User_4"'
+      Content=/Script/UMG.Spacer'"Spacer_10"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_5" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_B_User_4.HorizontalBoxSlot_5"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_4" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_B_User_4.HorizontalBoxSlot_4"'
+      Parent=/Script/UMG.HorizontalBox'"HBox_B_User_4"'
+      Content=/Script/UMG.Spacer'"Spacer_9"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_3" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_B_User_4.HorizontalBoxSlot_3"'
+      Parent=/Script/UMG.HorizontalBox'"HBox_B_User_4"'
+      Content=/Script/UMG.SizeBox'"SizeBox_16"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_2" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_B_User_4.HorizontalBoxSlot_2"'
+      Parent=/Script/UMG.HorizontalBox'"HBox_B_User_4"'
+      Content=/Script/UMG.SizeBox'"SizeBox_15"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_1" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_B_User_4.HorizontalBoxSlot_1"'
+      Parent=/Script/UMG.HorizontalBox'"HBox_B_User_4"'
+      Content=/Script/UMG.SizeBox'"SizeBox_14"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_0" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_B_User_4.HorizontalBoxSlot_0"'
+   End Object
+   Slots(0)=/Script/UMG.HorizontalBoxSlot'"HorizontalBoxSlot_1"'
+   Slots(1)=/Script/UMG.HorizontalBoxSlot'"HorizontalBoxSlot_4"'
+   Slots(2)=/Script/UMG.HorizontalBoxSlot'"HorizontalBoxSlot_2"'
+   Slots(3)=/Script/UMG.HorizontalBoxSlot'"HorizontalBoxSlot_6"'
+   Slots(4)=/Script/UMG.HorizontalBoxSlot'"HorizontalBoxSlot_3"'
+   bIsVariable=True
+   DisplayLabel="HBox_B_User_4"
+End Object
+Begin Object Class=/Script/UMG.SizeBox Name="SizeBox_14" ExportPath=/Script/UMG.SizeBox'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_14"'
+   Begin Object Class=/Script/UMG.SizeBoxSlot Name="SizeBoxSlot_1" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_14.SizeBoxSlot_1"'
+   End Object
+   Begin Object Class=/Script/UMG.SlateAccessibleWidgetData Name="SlateAccessibleWidgetData_0" ExportPath=/Script/UMG.SlateAccessibleWidgetData'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_14.SlateAccessibleWidgetData_0"'
+   End Object
+   Begin Object Class=/Script/UMG.SizeBoxSlot Name="SizeBoxSlot_0" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_14.SizeBoxSlot_0"'
+   End Object
+   Begin Object Name="SizeBoxSlot_1" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_14.SizeBoxSlot_1"'
+      Parent=/Script/UMG.SizeBox'"SizeBox_14"'
+      Content=/Script/UMG.TextBlock'"TXT_Name_B_User_4"'
+   End Object
+   Begin Object Name="SlateAccessibleWidgetData_0" ExportPath=/Script/UMG.SlateAccessibleWidgetData'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_14.SlateAccessibleWidgetData_0"'
+   End Object
+   Begin Object Name="SizeBoxSlot_0" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_14.SizeBoxSlot_0"'
+   End Object
+   WidthOverride=200.000000
+   bOverride_WidthOverride=True
+   Slots(0)=/Script/UMG.SizeBoxSlot'"SizeBoxSlot_1"'
+   bExpandedInDesigner=True
+End Object
+Begin Object Class=/Script/UMG.TextBlock Name="TXT_Name_B_User_4" ExportPath=/Script/UMG.TextBlock'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.TXT_Name_B_User_4"'
+   Text=NSLOCTEXT("[447BE350DCB12F36B09844113B5EA4CD]", "056238F94E724A72DF74B58E3AB3273F", "User5")
+   bIsVariable=True
+   DisplayLabel="TXT_Name_B_User_4"
+End Object
+Begin Object Class=/Script/UMG.Spacer Name="Spacer_9" ExportPath=/Script/UMG.Spacer'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.Spacer_9"'
+   Size=(X=5.000000,Y=1.000000)
+End Object
+Begin Object Class=/Script/UMG.SizeBox Name="SizeBox_15" ExportPath=/Script/UMG.SizeBox'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_15"'
+   Begin Object Class=/Script/UMG.SizeBoxSlot Name="SizeBoxSlot_0" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_15.SizeBoxSlot_0"'
+   End Object
+   Begin Object Class=/Script/UMG.SlateAccessibleWidgetData Name="SlateAccessibleWidgetData_0" ExportPath=/Script/UMG.SlateAccessibleWidgetData'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_15.SlateAccessibleWidgetData_0"'
+   End Object
+   Begin Object Class=/Script/UMG.SizeBoxSlot Name="SizeBoxSlot_1" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_15.SizeBoxSlot_1"'
+   End Object
+   Begin Object Name="SizeBoxSlot_0" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_15.SizeBoxSlot_0"'
+   End Object
+   Begin Object Name="SlateAccessibleWidgetData_0" ExportPath=/Script/UMG.SlateAccessibleWidgetData'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_15.SlateAccessibleWidgetData_0"'
+   End Object
+   Begin Object Name="SizeBoxSlot_1" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_15.SizeBoxSlot_1"'
+      HorizontalAlignment=HAlign_Right
+      Parent=/Script/UMG.SizeBox'"SizeBox_15"'
+      Content=/Script/UMG.TextBlock'"TXT_Kill_B_User_4"'
+   End Object
+   WidthOverride=50.000000
+   bOverride_WidthOverride=True
+   Slots(0)=/Script/UMG.SizeBoxSlot'"SizeBoxSlot_1"'
+   bExpandedInDesigner=True
+End Object
+Begin Object Class=/Script/UMG.TextBlock Name="TXT_Kill_B_User_4" ExportPath=/Script/UMG.TextBlock'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.TXT_Kill_B_User_4"'
+   Text=NSLOCTEXT("[447BE350DCB12F36B09844113B5EA4CD]", "AF545E3444FFC61A2336EA887E62DD98", "0")
+   bIsVariable=True
+   DisplayLabel="TXT_Kill_B_User_4"
+End Object
+Begin Object Class=/Script/UMG.Spacer Name="Spacer_10" ExportPath=/Script/UMG.Spacer'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.Spacer_10"'
+   Size=(X=5.000000,Y=1.000000)
+End Object
+Begin Object Class=/Script/UMG.SizeBox Name="SizeBox_16" ExportPath=/Script/UMG.SizeBox'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_16"'
+   Begin Object Class=/Script/UMG.SizeBoxSlot Name="SizeBoxSlot_1" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_16.SizeBoxSlot_1"'
+   End Object
+   Begin Object Class=/Script/UMG.SlateAccessibleWidgetData Name="SlateAccessibleWidgetData_0" ExportPath=/Script/UMG.SlateAccessibleWidgetData'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_16.SlateAccessibleWidgetData_0"'
+   End Object
+   Begin Object Class=/Script/UMG.SizeBoxSlot Name="SizeBoxSlot_0" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_16.SizeBoxSlot_0"'
+   End Object
+   Begin Object Name="SizeBoxSlot_1" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_16.SizeBoxSlot_1"'
+      HorizontalAlignment=HAlign_Right
+      Parent=/Script/UMG.SizeBox'"SizeBox_16"'
+      Content=/Script/UMG.TextBlock'"TXT_Death_B_User_4"'
+   End Object
+   Begin Object Name="SlateAccessibleWidgetData_0" ExportPath=/Script/UMG.SlateAccessibleWidgetData'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_16.SlateAccessibleWidgetData_0"'
+   End Object
+   Begin Object Name="SizeBoxSlot_0" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_16.SizeBoxSlot_0"'
+   End Object
+   WidthOverride=100.000000
+   bOverride_WidthOverride=True
+   Slots(0)=/Script/UMG.SizeBoxSlot'"SizeBoxSlot_1"'
+   bExpandedInDesigner=True
+End Object
+Begin Object Class=/Script/UMG.TextBlock Name="TXT_Death_B_User_4" ExportPath=/Script/UMG.TextBlock'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.TXT_Death_B_User_4"'
+   Text=NSLOCTEXT("[447BE350DCB12F36B09844113B5EA4CD]", "F1E06A864C6F7210DAD0F0B0F88A0285", "0")
+   bIsVariable=True
+   DisplayLabel="TXT_Death_B_User_4"
+End Object
+Begin Object Class=/Script/UMG.Spacer Name="Spacer_83" ExportPath=/Script/UMG.Spacer'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.Spacer_83"'
+End Object
+Begin Object Class=/Script/UMG.VerticalBox Name="VerticalBox" ExportPath=/Script/UMG.VerticalBox'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.VerticalBox"'
+   Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_6" ExportPath=/Script/UMG.VerticalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.VerticalBox.VerticalBoxSlot_6"'
+   End Object
+   Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_9" ExportPath=/Script/UMG.VerticalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.VerticalBox.VerticalBoxSlot_9"'
+   End Object
+   Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_8" ExportPath=/Script/UMG.VerticalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.VerticalBox.VerticalBoxSlot_8"'
+   End Object
+   Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_7" ExportPath=/Script/UMG.VerticalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.VerticalBox.VerticalBoxSlot_7"'
+   End Object
+   Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_2" ExportPath=/Script/UMG.VerticalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.VerticalBox.VerticalBoxSlot_2"'
+   End Object
+   Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_1" ExportPath=/Script/UMG.VerticalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.VerticalBox.VerticalBoxSlot_1"'
+   End Object
+   Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_0" ExportPath=/Script/UMG.VerticalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.VerticalBox.VerticalBoxSlot_0"'
+   End Object
+   Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_12" ExportPath=/Script/UMG.VerticalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.VerticalBox.VerticalBoxSlot_12"'
+   End Object
+   Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_11" ExportPath=/Script/UMG.VerticalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.VerticalBox.VerticalBoxSlot_11"'
+   End Object
+   Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_10" ExportPath=/Script/UMG.VerticalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.VerticalBox.VerticalBoxSlot_10"'
+   End Object
+   Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_5" ExportPath=/Script/UMG.VerticalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.VerticalBox.VerticalBoxSlot_5"'
+   End Object
+   Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_4" ExportPath=/Script/UMG.VerticalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.VerticalBox.VerticalBoxSlot_4"'
+   End Object
+   Begin Object Class=/Script/UMG.VerticalBoxSlot Name="VerticalBoxSlot_3" ExportPath=/Script/UMG.VerticalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.VerticalBox.VerticalBoxSlot_3"'
+   End Object
+   Begin Object Name="VerticalBoxSlot_6" ExportPath=/Script/UMG.VerticalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.VerticalBox.VerticalBoxSlot_6"'
+      Parent=/Script/UMG.VerticalBox'"VerticalBox"'
+      Content=/Script/UMG.HorizontalBox'"HBox_R_User"'
+   End Object
+   Begin Object Name="VerticalBoxSlot_9" ExportPath=/Script/UMG.VerticalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.VerticalBox.VerticalBoxSlot_9"'
+      Parent=/Script/UMG.VerticalBox'"VerticalBox"'
+      Content=/Script/UMG.HorizontalBox'"HBox_R_User_3"'
+   End Object
+   Begin Object Name="VerticalBoxSlot_8" ExportPath=/Script/UMG.VerticalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.VerticalBox.VerticalBoxSlot_8"'
+      Parent=/Script/UMG.VerticalBox'"VerticalBox"'
+      Content=/Script/UMG.HorizontalBox'"HBox_R_User_2"'
+   End Object
+   Begin Object Name="VerticalBoxSlot_7" ExportPath=/Script/UMG.VerticalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.VerticalBox.VerticalBoxSlot_7"'
+      Parent=/Script/UMG.VerticalBox'"VerticalBox"'
+      Content=/Script/UMG.HorizontalBox'"HBox_R_User_1"'
+   End Object
+   Begin Object Name="VerticalBoxSlot_2" ExportPath=/Script/UMG.VerticalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.VerticalBox.VerticalBoxSlot_2"'
+   End Object
+   Begin Object Name="VerticalBoxSlot_1" ExportPath=/Script/UMG.VerticalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.VerticalBox.VerticalBoxSlot_1"'
+   End Object
+   Begin Object Name="VerticalBoxSlot_0" ExportPath=/Script/UMG.VerticalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.VerticalBox.VerticalBoxSlot_0"'
+   End Object
+   Begin Object Name="VerticalBoxSlot_12" ExportPath=/Script/UMG.VerticalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.VerticalBox.VerticalBoxSlot_12"'
+      Parent=/Script/UMG.VerticalBox'"VerticalBox"'
+      Content=/Script/UMG.HorizontalBox'"HorizontalBox_2"'
+   End Object
+   Begin Object Name="VerticalBoxSlot_11" ExportPath=/Script/UMG.VerticalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.VerticalBox.VerticalBoxSlot_11"'
+   End Object
+   Begin Object Name="VerticalBoxSlot_10" ExportPath=/Script/UMG.VerticalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.VerticalBox.VerticalBoxSlot_10"'
+      Parent=/Script/UMG.VerticalBox'"VerticalBox"'
+      Content=/Script/UMG.HorizontalBox'"HBox_R_User_4"'
+   End Object
+   Begin Object Name="VerticalBoxSlot_5" ExportPath=/Script/UMG.VerticalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.VerticalBox.VerticalBoxSlot_5"'
+      Parent=/Script/UMG.VerticalBox'"VerticalBox"'
+      Content=/Script/UMG.HorizontalBox'"HorizontalBox"'
+   End Object
+   Begin Object Name="VerticalBoxSlot_4" ExportPath=/Script/UMG.VerticalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.VerticalBox.VerticalBoxSlot_4"'
+   End Object
+   Begin Object Name="VerticalBoxSlot_3" ExportPath=/Script/UMG.VerticalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.VerticalBox.VerticalBoxSlot_3"'
+   End Object
+   Slots(0)=/Script/UMG.VerticalBoxSlot'"VerticalBoxSlot_12"'
+   Slots(1)=/Script/UMG.VerticalBoxSlot'"VerticalBoxSlot_5"'
+   Slots(2)=/Script/UMG.VerticalBoxSlot'"VerticalBoxSlot_6"'
+   Slots(3)=/Script/UMG.VerticalBoxSlot'"VerticalBoxSlot_7"'
+   Slots(4)=/Script/UMG.VerticalBoxSlot'"VerticalBoxSlot_8"'
+   Slots(5)=/Script/UMG.VerticalBoxSlot'"VerticalBoxSlot_9"'
+   Slots(6)=/Script/UMG.VerticalBoxSlot'"VerticalBoxSlot_10"'
+End Object
+Begin Object Class=/Script/UMG.HorizontalBox Name="HorizontalBox_2" ExportPath=/Script/UMG.HorizontalBox'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HorizontalBox_2"'
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_6" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HorizontalBox_2.HorizontalBoxSlot_6"'
+   End Object
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_5" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HorizontalBox_2.HorizontalBoxSlot_5"'
+   End Object
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_4" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HorizontalBox_2.HorizontalBoxSlot_4"'
+   End Object
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_3" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HorizontalBox_2.HorizontalBoxSlot_3"'
+   End Object
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_2" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HorizontalBox_2.HorizontalBoxSlot_2"'
+   End Object
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_1" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HorizontalBox_2.HorizontalBoxSlot_1"'
+   End Object
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_0" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HorizontalBox_2.HorizontalBoxSlot_0"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_6" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HorizontalBox_2.HorizontalBoxSlot_6"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_5" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HorizontalBox_2.HorizontalBoxSlot_5"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_4" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HorizontalBox_2.HorizontalBoxSlot_4"'
+      Parent=/Script/UMG.HorizontalBox'"HorizontalBox_2"'
+      Content=/Script/UMG.Spacer'"Spacer_24"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_3" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HorizontalBox_2.HorizontalBoxSlot_3"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_2" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HorizontalBox_2.HorizontalBoxSlot_2"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_1" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HorizontalBox_2.HorizontalBoxSlot_1"'
+      Size=(SizeRule=Fill)
+      Parent=/Script/UMG.HorizontalBox'"HorizontalBox_2"'
+      Content=/Script/UMG.SizeBox'"SizeBox_36"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_0" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HorizontalBox_2.HorizontalBoxSlot_0"'
+   End Object
+   Slots(0)=/Script/UMG.HorizontalBoxSlot'"HorizontalBoxSlot_1"'
+   Slots(1)=/Script/UMG.HorizontalBoxSlot'"HorizontalBoxSlot_4"'
+   bExpandedInDesigner=True
+End Object
+Begin Object Class=/Script/UMG.SizeBox Name="SizeBox_36" ExportPath=/Script/UMG.SizeBox'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_36"'
+   Begin Object Class=/Script/UMG.SizeBoxSlot Name="SizeBoxSlot_1" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_36.SizeBoxSlot_1"'
+   End Object
+   Begin Object Class=/Script/UMG.SlateAccessibleWidgetData Name="SlateAccessibleWidgetData_0" ExportPath=/Script/UMG.SlateAccessibleWidgetData'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_36.SlateAccessibleWidgetData_0"'
+   End Object
+   Begin Object Class=/Script/UMG.SizeBoxSlot Name="SizeBoxSlot_0" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_36.SizeBoxSlot_0"'
+   End Object
+   Begin Object Name="SizeBoxSlot_1" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_36.SizeBoxSlot_1"'
+      HorizontalAlignment=HAlign_Left
+      Parent=/Script/UMG.SizeBox'"SizeBox_36"'
+      Content=/Script/UMG.TextBlock'"TextBlock_6"'
+   End Object
+   Begin Object Name="SlateAccessibleWidgetData_0" ExportPath=/Script/UMG.SlateAccessibleWidgetData'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_36.SlateAccessibleWidgetData_0"'
+   End Object
+   Begin Object Name="SizeBoxSlot_0" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_36.SizeBoxSlot_0"'
+   End Object
+   WidthOverride=200.000000
+   bOverride_WidthOverride=True
+   Slots(0)=/Script/UMG.SizeBoxSlot'"SizeBoxSlot_1"'
+   bExpandedInDesigner=True
+End Object
+Begin Object Class=/Script/UMG.TextBlock Name="TextBlock_6" ExportPath=/Script/UMG.TextBlock'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.TextBlock_6"'
+   Text=NSLOCTEXT("[447BE350DCB12F36B09844113B5EA4CD]", "F822B5CF4B7510337F8EBB8A4F3FA8AC", "Red Side")
+End Object
+Begin Object Class=/Script/UMG.Spacer Name="Spacer_24" ExportPath=/Script/UMG.Spacer'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.Spacer_24"'
+   Size=(X=5.000000,Y=1.000000)
+End Object
+Begin Object Class=/Script/UMG.HorizontalBox Name="HorizontalBox" ExportPath=/Script/UMG.HorizontalBox'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HorizontalBox"'
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_0" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HorizontalBox.HorizontalBoxSlot_0"'
+   End Object
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_1" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HorizontalBox.HorizontalBoxSlot_1"'
+   End Object
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_2" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HorizontalBox.HorizontalBoxSlot_2"'
+   End Object
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_3" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HorizontalBox.HorizontalBoxSlot_3"'
+   End Object
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_4" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HorizontalBox.HorizontalBoxSlot_4"'
+   End Object
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_5" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HorizontalBox.HorizontalBoxSlot_5"'
+   End Object
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_6" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HorizontalBox.HorizontalBoxSlot_6"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_0" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HorizontalBox.HorizontalBoxSlot_0"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_1" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HorizontalBox.HorizontalBoxSlot_1"'
+      Parent=/Script/UMG.HorizontalBox'"HorizontalBox"'
+      Content=/Script/UMG.SizeBox'"SizeBox_32"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_2" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HorizontalBox.HorizontalBoxSlot_2"'
+      Parent=/Script/UMG.HorizontalBox'"HorizontalBox"'
+      Content=/Script/UMG.SizeBox'"SizeBox_33"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_3" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HorizontalBox.HorizontalBoxSlot_3"'
+      Parent=/Script/UMG.HorizontalBox'"HorizontalBox"'
+      Content=/Script/UMG.SizeBox'"SizeBox_34"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_4" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HorizontalBox.HorizontalBoxSlot_4"'
+      Parent=/Script/UMG.HorizontalBox'"HorizontalBox"'
+      Content=/Script/UMG.Spacer'"Spacer_21"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_5" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HorizontalBox.HorizontalBoxSlot_5"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_6" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HorizontalBox.HorizontalBoxSlot_6"'
+      Parent=/Script/UMG.HorizontalBox'"HorizontalBox"'
+      Content=/Script/UMG.Spacer'"Spacer_22"'
+   End Object
+   Slots(0)=/Script/UMG.HorizontalBoxSlot'"HorizontalBoxSlot_1"'
+   Slots(1)=/Script/UMG.HorizontalBoxSlot'"HorizontalBoxSlot_4"'
+   Slots(2)=/Script/UMG.HorizontalBoxSlot'"HorizontalBoxSlot_2"'
+   Slots(3)=/Script/UMG.HorizontalBoxSlot'"HorizontalBoxSlot_6"'
+   Slots(4)=/Script/UMG.HorizontalBoxSlot'"HorizontalBoxSlot_3"'
+End Object
+Begin Object Class=/Script/UMG.SizeBox Name="SizeBox_32" ExportPath=/Script/UMG.SizeBox'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_32"'
+   Begin Object Class=/Script/UMG.SizeBoxSlot Name="SizeBoxSlot_0" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_32.SizeBoxSlot_0"'
+   End Object
+   Begin Object Class=/Script/UMG.SlateAccessibleWidgetData Name="SlateAccessibleWidgetData_0" ExportPath=/Script/UMG.SlateAccessibleWidgetData'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_32.SlateAccessibleWidgetData_0"'
+   End Object
+   Begin Object Class=/Script/UMG.SizeBoxSlot Name="SizeBoxSlot_1" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_32.SizeBoxSlot_1"'
+   End Object
+   Begin Object Name="SizeBoxSlot_0" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_32.SizeBoxSlot_0"'
+   End Object
+   Begin Object Name="SlateAccessibleWidgetData_0" ExportPath=/Script/UMG.SlateAccessibleWidgetData'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_32.SlateAccessibleWidgetData_0"'
+   End Object
+   Begin Object Name="SizeBoxSlot_1" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_32.SizeBoxSlot_1"'
+      Parent=/Script/UMG.SizeBox'"SizeBox_32"'
+      Content=/Script/UMG.TextBlock'"TextBlock_2"'
+   End Object
+   WidthOverride=200.000000
+   bOverride_WidthOverride=True
+   Slots(0)=/Script/UMG.SizeBoxSlot'"SizeBoxSlot_1"'
+   bExpandedInDesigner=True
+End Object
+Begin Object Class=/Script/UMG.TextBlock Name="TextBlock_2" ExportPath=/Script/UMG.TextBlock'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.TextBlock_2"'
+   Text=NSLOCTEXT("[447BE350DCB12F36B09844113B5EA4CD]", "9EE7A6544F5FC5939394C8B23F959B45", "Name")
+End Object
+Begin Object Class=/Script/UMG.Spacer Name="Spacer_21" ExportPath=/Script/UMG.Spacer'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.Spacer_21"'
+   Size=(X=5.000000,Y=1.000000)
+End Object
+Begin Object Class=/Script/UMG.SizeBox Name="SizeBox_33" ExportPath=/Script/UMG.SizeBox'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_33"'
+   Begin Object Class=/Script/UMG.SizeBoxSlot Name="SizeBoxSlot_1" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_33.SizeBoxSlot_1"'
+   End Object
+   Begin Object Class=/Script/UMG.SlateAccessibleWidgetData Name="SlateAccessibleWidgetData_0" ExportPath=/Script/UMG.SlateAccessibleWidgetData'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_33.SlateAccessibleWidgetData_0"'
+   End Object
+   Begin Object Class=/Script/UMG.SizeBoxSlot Name="SizeBoxSlot_0" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_33.SizeBoxSlot_0"'
+   End Object
+   Begin Object Name="SizeBoxSlot_1" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_33.SizeBoxSlot_1"'
+      HorizontalAlignment=HAlign_Right
+      Parent=/Script/UMG.SizeBox'"SizeBox_33"'
+      Content=/Script/UMG.TextBlock'"TextBlock_3"'
+   End Object
+   Begin Object Name="SlateAccessibleWidgetData_0" ExportPath=/Script/UMG.SlateAccessibleWidgetData'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_33.SlateAccessibleWidgetData_0"'
+   End Object
+   Begin Object Name="SizeBoxSlot_0" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_33.SizeBoxSlot_0"'
+   End Object
+   WidthOverride=50.000000
+   bOverride_WidthOverride=True
+   Slots(0)=/Script/UMG.SizeBoxSlot'"SizeBoxSlot_1"'
+   bExpandedInDesigner=True
+End Object
+Begin Object Class=/Script/UMG.TextBlock Name="TextBlock_3" ExportPath=/Script/UMG.TextBlock'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.TextBlock_3"'
+   Text=NSLOCTEXT("[447BE350DCB12F36B09844113B5EA4CD]", "AF0A3A28410B8424E938C5AF8A52DB57", "Kill")
+End Object
+Begin Object Class=/Script/UMG.Spacer Name="Spacer_22" ExportPath=/Script/UMG.Spacer'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.Spacer_22"'
+   Size=(X=5.000000,Y=1.000000)
+End Object
+Begin Object Class=/Script/UMG.SizeBox Name="SizeBox_34" ExportPath=/Script/UMG.SizeBox'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_34"'
+   Begin Object Class=/Script/UMG.SizeBoxSlot Name="SizeBoxSlot_0" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_34.SizeBoxSlot_0"'
+   End Object
+   Begin Object Class=/Script/UMG.SlateAccessibleWidgetData Name="SlateAccessibleWidgetData_0" ExportPath=/Script/UMG.SlateAccessibleWidgetData'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_34.SlateAccessibleWidgetData_0"'
+   End Object
+   Begin Object Class=/Script/UMG.SizeBoxSlot Name="SizeBoxSlot_1" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_34.SizeBoxSlot_1"'
+   End Object
+   Begin Object Name="SizeBoxSlot_0" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_34.SizeBoxSlot_0"'
+   End Object
+   Begin Object Name="SlateAccessibleWidgetData_0" ExportPath=/Script/UMG.SlateAccessibleWidgetData'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_34.SlateAccessibleWidgetData_0"'
+   End Object
+   Begin Object Name="SizeBoxSlot_1" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_34.SizeBoxSlot_1"'
+      HorizontalAlignment=HAlign_Right
+      Parent=/Script/UMG.SizeBox'"SizeBox_34"'
+      Content=/Script/UMG.TextBlock'"TextBlock_4"'
+   End Object
+   WidthOverride=100.000000
+   bOverride_WidthOverride=True
+   Slots(0)=/Script/UMG.SizeBoxSlot'"SizeBoxSlot_1"'
+End Object
+Begin Object Class=/Script/UMG.TextBlock Name="TextBlock_4" ExportPath=/Script/UMG.TextBlock'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.TextBlock_4"'
+   Text=NSLOCTEXT("[447BE350DCB12F36B09844113B5EA4CD]", "45557E684D4E127353E2ED8B50FA8EB2", "Death")
+End Object
+Begin Object Class=/Script/UMG.HorizontalBox Name="HBox_R_User" ExportPath=/Script/UMG.HorizontalBox'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_R_User"'
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_0" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_R_User.HorizontalBoxSlot_0"'
+   End Object
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_1" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_R_User.HorizontalBoxSlot_1"'
+   End Object
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_2" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_R_User.HorizontalBoxSlot_2"'
+   End Object
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_3" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_R_User.HorizontalBoxSlot_3"'
+   End Object
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_4" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_R_User.HorizontalBoxSlot_4"'
+   End Object
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_5" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_R_User.HorizontalBoxSlot_5"'
+   End Object
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_6" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_R_User.HorizontalBoxSlot_6"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_0" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_R_User.HorizontalBoxSlot_0"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_1" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_R_User.HorizontalBoxSlot_1"'
+      Parent=/Script/UMG.HorizontalBox'"HBox_R_User"'
+      Content=/Script/UMG.SizeBox'"SizeBox_17"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_2" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_R_User.HorizontalBoxSlot_2"'
+      Parent=/Script/UMG.HorizontalBox'"HBox_R_User"'
+      Content=/Script/UMG.SizeBox'"SizeBox_18"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_3" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_R_User.HorizontalBoxSlot_3"'
+      Parent=/Script/UMG.HorizontalBox'"HBox_R_User"'
+      Content=/Script/UMG.SizeBox'"SizeBox_19"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_4" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_R_User.HorizontalBoxSlot_4"'
+      Parent=/Script/UMG.HorizontalBox'"HBox_R_User"'
+      Content=/Script/UMG.Spacer'"Spacer_11"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_5" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_R_User.HorizontalBoxSlot_5"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_6" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_R_User.HorizontalBoxSlot_6"'
+      Parent=/Script/UMG.HorizontalBox'"HBox_R_User"'
+      Content=/Script/UMG.Spacer'"Spacer_12"'
+   End Object
+   Slots(0)=/Script/UMG.HorizontalBoxSlot'"HorizontalBoxSlot_1"'
+   Slots(1)=/Script/UMG.HorizontalBoxSlot'"HorizontalBoxSlot_4"'
+   Slots(2)=/Script/UMG.HorizontalBoxSlot'"HorizontalBoxSlot_2"'
+   Slots(3)=/Script/UMG.HorizontalBoxSlot'"HorizontalBoxSlot_6"'
+   Slots(4)=/Script/UMG.HorizontalBoxSlot'"HorizontalBoxSlot_3"'
+   bIsVariable=True
+   DisplayLabel="HBox_R_User"
+End Object
+Begin Object Class=/Script/UMG.SizeBox Name="SizeBox_17" ExportPath=/Script/UMG.SizeBox'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_17"'
+   Begin Object Class=/Script/UMG.SizeBoxSlot Name="SizeBoxSlot_0" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_17.SizeBoxSlot_0"'
+   End Object
+   Begin Object Class=/Script/UMG.SlateAccessibleWidgetData Name="SlateAccessibleWidgetData_0" ExportPath=/Script/UMG.SlateAccessibleWidgetData'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_17.SlateAccessibleWidgetData_0"'
+   End Object
+   Begin Object Class=/Script/UMG.SizeBoxSlot Name="SizeBoxSlot_1" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_17.SizeBoxSlot_1"'
+   End Object
+   Begin Object Name="SizeBoxSlot_0" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_17.SizeBoxSlot_0"'
+   End Object
+   Begin Object Name="SlateAccessibleWidgetData_0" ExportPath=/Script/UMG.SlateAccessibleWidgetData'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_17.SlateAccessibleWidgetData_0"'
+   End Object
+   Begin Object Name="SizeBoxSlot_1" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_17.SizeBoxSlot_1"'
+      Parent=/Script/UMG.SizeBox'"SizeBox_17"'
+      Content=/Script/UMG.TextBlock'"TXT_Name_R_User"'
+   End Object
+   WidthOverride=200.000000
+   bOverride_WidthOverride=True
+   Slots(0)=/Script/UMG.SizeBoxSlot'"SizeBoxSlot_1"'
+End Object
+Begin Object Class=/Script/UMG.TextBlock Name="TXT_Name_R_User" ExportPath=/Script/UMG.TextBlock'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.TXT_Name_R_User"'
+   Text=NSLOCTEXT("[447BE350DCB12F36B09844113B5EA4CD]", "0EF1F2D145D6296D2F7DEE8D2044E19F", "User6")
+   bIsVariable=True
+   DisplayLabel="TXT_Name_R_User"
+End Object
+Begin Object Class=/Script/UMG.Spacer Name="Spacer_11" ExportPath=/Script/UMG.Spacer'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.Spacer_11"'
+   Size=(X=5.000000,Y=1.000000)
+End Object
+Begin Object Class=/Script/UMG.SizeBox Name="SizeBox_18" ExportPath=/Script/UMG.SizeBox'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_18"'
+   Begin Object Class=/Script/UMG.SizeBoxSlot Name="SizeBoxSlot_1" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_18.SizeBoxSlot_1"'
+   End Object
+   Begin Object Class=/Script/UMG.SlateAccessibleWidgetData Name="SlateAccessibleWidgetData_0" ExportPath=/Script/UMG.SlateAccessibleWidgetData'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_18.SlateAccessibleWidgetData_0"'
+   End Object
+   Begin Object Class=/Script/UMG.SizeBoxSlot Name="SizeBoxSlot_0" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_18.SizeBoxSlot_0"'
+   End Object
+   Begin Object Name="SizeBoxSlot_1" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_18.SizeBoxSlot_1"'
+      HorizontalAlignment=HAlign_Right
+      Parent=/Script/UMG.SizeBox'"SizeBox_18"'
+      Content=/Script/UMG.TextBlock'"TXT_Kill_R_User"'
+   End Object
+   Begin Object Name="SlateAccessibleWidgetData_0" ExportPath=/Script/UMG.SlateAccessibleWidgetData'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_18.SlateAccessibleWidgetData_0"'
+   End Object
+   Begin Object Name="SizeBoxSlot_0" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_18.SizeBoxSlot_0"'
+   End Object
+   WidthOverride=50.000000
+   bOverride_WidthOverride=True
+   Slots(0)=/Script/UMG.SizeBoxSlot'"SizeBoxSlot_1"'
+End Object
+Begin Object Class=/Script/UMG.TextBlock Name="TXT_Kill_R_User" ExportPath=/Script/UMG.TextBlock'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.TXT_Kill_R_User"'
+   Text=NSLOCTEXT("[447BE350DCB12F36B09844113B5EA4CD]", "AF545E3444FFC61A2336EA887E62DD98", "0")
+   bIsVariable=True
+   DisplayLabel="TXT_Kill_R_User"
+End Object
+Begin Object Class=/Script/UMG.Spacer Name="Spacer_12" ExportPath=/Script/UMG.Spacer'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.Spacer_12"'
+   Size=(X=5.000000,Y=1.000000)
+End Object
+Begin Object Class=/Script/UMG.SizeBox Name="SizeBox_19" ExportPath=/Script/UMG.SizeBox'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_19"'
+   Begin Object Class=/Script/UMG.SizeBoxSlot Name="SizeBoxSlot_0" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_19.SizeBoxSlot_0"'
+   End Object
+   Begin Object Class=/Script/UMG.SlateAccessibleWidgetData Name="SlateAccessibleWidgetData_0" ExportPath=/Script/UMG.SlateAccessibleWidgetData'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_19.SlateAccessibleWidgetData_0"'
+   End Object
+   Begin Object Class=/Script/UMG.SizeBoxSlot Name="SizeBoxSlot_1" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_19.SizeBoxSlot_1"'
+   End Object
+   Begin Object Name="SizeBoxSlot_0" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_19.SizeBoxSlot_0"'
+   End Object
+   Begin Object Name="SlateAccessibleWidgetData_0" ExportPath=/Script/UMG.SlateAccessibleWidgetData'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_19.SlateAccessibleWidgetData_0"'
+   End Object
+   Begin Object Name="SizeBoxSlot_1" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_19.SizeBoxSlot_1"'
+      HorizontalAlignment=HAlign_Right
+      Parent=/Script/UMG.SizeBox'"SizeBox_19"'
+      Content=/Script/UMG.TextBlock'"TXT_Death_R_User"'
+   End Object
+   WidthOverride=100.000000
+   bOverride_WidthOverride=True
+   Slots(0)=/Script/UMG.SizeBoxSlot'"SizeBoxSlot_1"'
+End Object
+Begin Object Class=/Script/UMG.TextBlock Name="TXT_Death_R_User" ExportPath=/Script/UMG.TextBlock'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.TXT_Death_R_User"'
+   Text=NSLOCTEXT("[447BE350DCB12F36B09844113B5EA4CD]", "F1E06A864C6F7210DAD0F0B0F88A0285", "0")
+   bIsVariable=True
+   DisplayLabel="TXT_Death_R_User"
+End Object
+Begin Object Class=/Script/UMG.HorizontalBox Name="HBox_R_User_1" ExportPath=/Script/UMG.HorizontalBox'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_R_User_1"'
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_6" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_R_User_1.HorizontalBoxSlot_6"'
+   End Object
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_5" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_R_User_1.HorizontalBoxSlot_5"'
+   End Object
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_4" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_R_User_1.HorizontalBoxSlot_4"'
+   End Object
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_3" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_R_User_1.HorizontalBoxSlot_3"'
+   End Object
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_2" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_R_User_1.HorizontalBoxSlot_2"'
+   End Object
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_1" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_R_User_1.HorizontalBoxSlot_1"'
+   End Object
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_0" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_R_User_1.HorizontalBoxSlot_0"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_6" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_R_User_1.HorizontalBoxSlot_6"'
+      Parent=/Script/UMG.HorizontalBox'"HBox_R_User_1"'
+      Content=/Script/UMG.Spacer'"Spacer_14"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_5" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_R_User_1.HorizontalBoxSlot_5"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_4" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_R_User_1.HorizontalBoxSlot_4"'
+      Parent=/Script/UMG.HorizontalBox'"HBox_R_User_1"'
+      Content=/Script/UMG.Spacer'"Spacer_13"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_3" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_R_User_1.HorizontalBoxSlot_3"'
+      Parent=/Script/UMG.HorizontalBox'"HBox_R_User_1"'
+      Content=/Script/UMG.SizeBox'"SizeBox_22"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_2" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_R_User_1.HorizontalBoxSlot_2"'
+      Parent=/Script/UMG.HorizontalBox'"HBox_R_User_1"'
+      Content=/Script/UMG.SizeBox'"SizeBox_21"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_1" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_R_User_1.HorizontalBoxSlot_1"'
+      Parent=/Script/UMG.HorizontalBox'"HBox_R_User_1"'
+      Content=/Script/UMG.SizeBox'"SizeBox_20"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_0" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_R_User_1.HorizontalBoxSlot_0"'
+   End Object
+   Slots(0)=/Script/UMG.HorizontalBoxSlot'"HorizontalBoxSlot_1"'
+   Slots(1)=/Script/UMG.HorizontalBoxSlot'"HorizontalBoxSlot_4"'
+   Slots(2)=/Script/UMG.HorizontalBoxSlot'"HorizontalBoxSlot_2"'
+   Slots(3)=/Script/UMG.HorizontalBoxSlot'"HorizontalBoxSlot_6"'
+   Slots(4)=/Script/UMG.HorizontalBoxSlot'"HorizontalBoxSlot_3"'
+   bIsVariable=True
+   bExpandedInDesigner=True
+   DisplayLabel="HBox_R_User_1"
+End Object
+Begin Object Class=/Script/UMG.SizeBox Name="SizeBox_20" ExportPath=/Script/UMG.SizeBox'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_20"'
+   Begin Object Class=/Script/UMG.SizeBoxSlot Name="SizeBoxSlot_1" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_20.SizeBoxSlot_1"'
+   End Object
+   Begin Object Class=/Script/UMG.SlateAccessibleWidgetData Name="SlateAccessibleWidgetData_0" ExportPath=/Script/UMG.SlateAccessibleWidgetData'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_20.SlateAccessibleWidgetData_0"'
+   End Object
+   Begin Object Class=/Script/UMG.SizeBoxSlot Name="SizeBoxSlot_0" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_20.SizeBoxSlot_0"'
+   End Object
+   Begin Object Name="SizeBoxSlot_1" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_20.SizeBoxSlot_1"'
+      Parent=/Script/UMG.SizeBox'"SizeBox_20"'
+      Content=/Script/UMG.TextBlock'"TXT_Name_R_User_1"'
+   End Object
+   Begin Object Name="SlateAccessibleWidgetData_0" ExportPath=/Script/UMG.SlateAccessibleWidgetData'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_20.SlateAccessibleWidgetData_0"'
+   End Object
+   Begin Object Name="SizeBoxSlot_0" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_20.SizeBoxSlot_0"'
+   End Object
+   WidthOverride=200.000000
+   bOverride_WidthOverride=True
+   Slots(0)=/Script/UMG.SizeBoxSlot'"SizeBoxSlot_1"'
+   bExpandedInDesigner=True
+End Object
+Begin Object Class=/Script/UMG.TextBlock Name="TXT_Name_R_User_1" ExportPath=/Script/UMG.TextBlock'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.TXT_Name_R_User_1"'
+   Text=NSLOCTEXT("[447BE350DCB12F36B09844113B5EA4CD]", "6E9B8C4744B2CC77D1FAE9B57764411E", "User7")
+   bIsVariable=True
+   DisplayLabel="TXT_Name_R_User_1"
+End Object
+Begin Object Class=/Script/UMG.Spacer Name="Spacer_13" ExportPath=/Script/UMG.Spacer'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.Spacer_13"'
+   Size=(X=5.000000,Y=1.000000)
+End Object
+Begin Object Class=/Script/UMG.SizeBox Name="SizeBox_21" ExportPath=/Script/UMG.SizeBox'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_21"'
+   Begin Object Class=/Script/UMG.SizeBoxSlot Name="SizeBoxSlot_0" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_21.SizeBoxSlot_0"'
+   End Object
+   Begin Object Class=/Script/UMG.SlateAccessibleWidgetData Name="SlateAccessibleWidgetData_0" ExportPath=/Script/UMG.SlateAccessibleWidgetData'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_21.SlateAccessibleWidgetData_0"'
+   End Object
+   Begin Object Class=/Script/UMG.SizeBoxSlot Name="SizeBoxSlot_1" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_21.SizeBoxSlot_1"'
+   End Object
+   Begin Object Name="SizeBoxSlot_0" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_21.SizeBoxSlot_0"'
+   End Object
+   Begin Object Name="SlateAccessibleWidgetData_0" ExportPath=/Script/UMG.SlateAccessibleWidgetData'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_21.SlateAccessibleWidgetData_0"'
+   End Object
+   Begin Object Name="SizeBoxSlot_1" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_21.SizeBoxSlot_1"'
+      HorizontalAlignment=HAlign_Right
+      Parent=/Script/UMG.SizeBox'"SizeBox_21"'
+      Content=/Script/UMG.TextBlock'"TXT_Kill_R_User_1"'
+   End Object
+   WidthOverride=50.000000
+   bOverride_WidthOverride=True
+   Slots(0)=/Script/UMG.SizeBoxSlot'"SizeBoxSlot_1"'
+End Object
+Begin Object Class=/Script/UMG.TextBlock Name="TXT_Kill_R_User_1" ExportPath=/Script/UMG.TextBlock'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.TXT_Kill_R_User_1"'
+   Text=NSLOCTEXT("[447BE350DCB12F36B09844113B5EA4CD]", "AF545E3444FFC61A2336EA887E62DD98", "0")
+   bIsVariable=True
+   DisplayLabel="TXT_Kill_R_User_1"
+End Object
+Begin Object Class=/Script/UMG.Spacer Name="Spacer_14" ExportPath=/Script/UMG.Spacer'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.Spacer_14"'
+   Size=(X=5.000000,Y=1.000000)
+End Object
+Begin Object Class=/Script/UMG.SizeBox Name="SizeBox_22" ExportPath=/Script/UMG.SizeBox'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_22"'
+   Begin Object Class=/Script/UMG.SizeBoxSlot Name="SizeBoxSlot_1" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_22.SizeBoxSlot_1"'
+   End Object
+   Begin Object Class=/Script/UMG.SlateAccessibleWidgetData Name="SlateAccessibleWidgetData_0" ExportPath=/Script/UMG.SlateAccessibleWidgetData'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_22.SlateAccessibleWidgetData_0"'
+   End Object
+   Begin Object Class=/Script/UMG.SizeBoxSlot Name="SizeBoxSlot_0" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_22.SizeBoxSlot_0"'
+   End Object
+   Begin Object Name="SizeBoxSlot_1" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_22.SizeBoxSlot_1"'
+      HorizontalAlignment=HAlign_Right
+      Parent=/Script/UMG.SizeBox'"SizeBox_22"'
+      Content=/Script/UMG.TextBlock'"TXT_Death_R_User_1"'
+   End Object
+   Begin Object Name="SlateAccessibleWidgetData_0" ExportPath=/Script/UMG.SlateAccessibleWidgetData'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_22.SlateAccessibleWidgetData_0"'
+   End Object
+   Begin Object Name="SizeBoxSlot_0" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_22.SizeBoxSlot_0"'
+   End Object
+   WidthOverride=100.000000
+   bOverride_WidthOverride=True
+   Slots(0)=/Script/UMG.SizeBoxSlot'"SizeBoxSlot_1"'
+End Object
+Begin Object Class=/Script/UMG.TextBlock Name="TXT_Death_R_User_1" ExportPath=/Script/UMG.TextBlock'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.TXT_Death_R_User_1"'
+   Text=NSLOCTEXT("[447BE350DCB12F36B09844113B5EA4CD]", "F1E06A864C6F7210DAD0F0B0F88A0285", "0")
+   bIsVariable=True
+   DisplayLabel="TXT_Death_R_User_1"
+End Object
+Begin Object Class=/Script/UMG.HorizontalBox Name="HBox_R_User_2" ExportPath=/Script/UMG.HorizontalBox'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_R_User_2"'
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_6" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_R_User_2.HorizontalBoxSlot_6"'
+   End Object
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_5" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_R_User_2.HorizontalBoxSlot_5"'
+   End Object
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_4" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_R_User_2.HorizontalBoxSlot_4"'
+   End Object
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_3" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_R_User_2.HorizontalBoxSlot_3"'
+   End Object
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_2" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_R_User_2.HorizontalBoxSlot_2"'
+   End Object
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_1" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_R_User_2.HorizontalBoxSlot_1"'
+   End Object
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_0" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_R_User_2.HorizontalBoxSlot_0"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_6" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_R_User_2.HorizontalBoxSlot_6"'
+      Parent=/Script/UMG.HorizontalBox'"HBox_R_User_2"'
+      Content=/Script/UMG.Spacer'"Spacer_16"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_5" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_R_User_2.HorizontalBoxSlot_5"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_4" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_R_User_2.HorizontalBoxSlot_4"'
+      Parent=/Script/UMG.HorizontalBox'"HBox_R_User_2"'
+      Content=/Script/UMG.Spacer'"Spacer_15"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_3" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_R_User_2.HorizontalBoxSlot_3"'
+      Parent=/Script/UMG.HorizontalBox'"HBox_R_User_2"'
+      Content=/Script/UMG.SizeBox'"SizeBox_25"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_2" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_R_User_2.HorizontalBoxSlot_2"'
+      Parent=/Script/UMG.HorizontalBox'"HBox_R_User_2"'
+      Content=/Script/UMG.SizeBox'"SizeBox_24"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_1" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_R_User_2.HorizontalBoxSlot_1"'
+      Parent=/Script/UMG.HorizontalBox'"HBox_R_User_2"'
+      Content=/Script/UMG.SizeBox'"SizeBox_23"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_0" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_R_User_2.HorizontalBoxSlot_0"'
+   End Object
+   Slots(0)=/Script/UMG.HorizontalBoxSlot'"HorizontalBoxSlot_1"'
+   Slots(1)=/Script/UMG.HorizontalBoxSlot'"HorizontalBoxSlot_4"'
+   Slots(2)=/Script/UMG.HorizontalBoxSlot'"HorizontalBoxSlot_2"'
+   Slots(3)=/Script/UMG.HorizontalBoxSlot'"HorizontalBoxSlot_6"'
+   Slots(4)=/Script/UMG.HorizontalBoxSlot'"HorizontalBoxSlot_3"'
+   bIsVariable=True
+   bExpandedInDesigner=True
+   DisplayLabel="HBox_R_User_2"
+End Object
+Begin Object Class=/Script/UMG.SizeBox Name="SizeBox_23" ExportPath=/Script/UMG.SizeBox'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_23"'
+   Begin Object Class=/Script/UMG.SizeBoxSlot Name="SizeBoxSlot_1" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_23.SizeBoxSlot_1"'
+   End Object
+   Begin Object Class=/Script/UMG.SlateAccessibleWidgetData Name="SlateAccessibleWidgetData_0" ExportPath=/Script/UMG.SlateAccessibleWidgetData'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_23.SlateAccessibleWidgetData_0"'
+   End Object
+   Begin Object Class=/Script/UMG.SizeBoxSlot Name="SizeBoxSlot_0" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_23.SizeBoxSlot_0"'
+   End Object
+   Begin Object Name="SizeBoxSlot_1" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_23.SizeBoxSlot_1"'
+      Parent=/Script/UMG.SizeBox'"SizeBox_23"'
+      Content=/Script/UMG.TextBlock'"TXT_Name_R_User_2"'
+   End Object
+   Begin Object Name="SlateAccessibleWidgetData_0" ExportPath=/Script/UMG.SlateAccessibleWidgetData'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_23.SlateAccessibleWidgetData_0"'
+   End Object
+   Begin Object Name="SizeBoxSlot_0" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_23.SizeBoxSlot_0"'
+   End Object
+   WidthOverride=200.000000
+   bOverride_WidthOverride=True
+   Slots(0)=/Script/UMG.SizeBoxSlot'"SizeBoxSlot_1"'
+   bExpandedInDesigner=True
+End Object
+Begin Object Class=/Script/UMG.TextBlock Name="TXT_Name_R_User_2" ExportPath=/Script/UMG.TextBlock'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.TXT_Name_R_User_2"'
+   Text=NSLOCTEXT("[447BE350DCB12F36B09844113B5EA4CD]", "CD7A3D53441069FD0C8AE5A470593C9A", "User8")
+   bIsVariable=True
+   DisplayLabel="TXT_Name_R_User_2"
+End Object
+Begin Object Class=/Script/UMG.Spacer Name="Spacer_15" ExportPath=/Script/UMG.Spacer'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.Spacer_15"'
+   Size=(X=5.000000,Y=1.000000)
+End Object
+Begin Object Class=/Script/UMG.SizeBox Name="SizeBox_24" ExportPath=/Script/UMG.SizeBox'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_24"'
+   Begin Object Class=/Script/UMG.SizeBoxSlot Name="SizeBoxSlot_0" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_24.SizeBoxSlot_0"'
+   End Object
+   Begin Object Class=/Script/UMG.SlateAccessibleWidgetData Name="SlateAccessibleWidgetData_0" ExportPath=/Script/UMG.SlateAccessibleWidgetData'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_24.SlateAccessibleWidgetData_0"'
+   End Object
+   Begin Object Class=/Script/UMG.SizeBoxSlot Name="SizeBoxSlot_1" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_24.SizeBoxSlot_1"'
+   End Object
+   Begin Object Name="SizeBoxSlot_0" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_24.SizeBoxSlot_0"'
+   End Object
+   Begin Object Name="SlateAccessibleWidgetData_0" ExportPath=/Script/UMG.SlateAccessibleWidgetData'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_24.SlateAccessibleWidgetData_0"'
+   End Object
+   Begin Object Name="SizeBoxSlot_1" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_24.SizeBoxSlot_1"'
+      HorizontalAlignment=HAlign_Right
+      Parent=/Script/UMG.SizeBox'"SizeBox_24"'
+      Content=/Script/UMG.TextBlock'"TXT_Kill_R_User_2"'
+   End Object
+   WidthOverride=50.000000
+   bOverride_WidthOverride=True
+   Slots(0)=/Script/UMG.SizeBoxSlot'"SizeBoxSlot_1"'
+End Object
+Begin Object Class=/Script/UMG.TextBlock Name="TXT_Kill_R_User_2" ExportPath=/Script/UMG.TextBlock'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.TXT_Kill_R_User_2"'
+   Text=NSLOCTEXT("[447BE350DCB12F36B09844113B5EA4CD]", "AF545E3444FFC61A2336EA887E62DD98", "0")
+   bIsVariable=True
+   DisplayLabel="TXT_Kill_R_User_2"
+End Object
+Begin Object Class=/Script/UMG.Spacer Name="Spacer_16" ExportPath=/Script/UMG.Spacer'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.Spacer_16"'
+   Size=(X=5.000000,Y=1.000000)
+End Object
+Begin Object Class=/Script/UMG.SizeBox Name="SizeBox_25" ExportPath=/Script/UMG.SizeBox'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_25"'
+   Begin Object Class=/Script/UMG.SizeBoxSlot Name="SizeBoxSlot_1" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_25.SizeBoxSlot_1"'
+   End Object
+   Begin Object Class=/Script/UMG.SlateAccessibleWidgetData Name="SlateAccessibleWidgetData_0" ExportPath=/Script/UMG.SlateAccessibleWidgetData'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_25.SlateAccessibleWidgetData_0"'
+   End Object
+   Begin Object Class=/Script/UMG.SizeBoxSlot Name="SizeBoxSlot_0" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_25.SizeBoxSlot_0"'
+   End Object
+   Begin Object Name="SizeBoxSlot_1" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_25.SizeBoxSlot_1"'
+      HorizontalAlignment=HAlign_Right
+      Parent=/Script/UMG.SizeBox'"SizeBox_25"'
+      Content=/Script/UMG.TextBlock'"TXT_Death_R_User_2"'
+   End Object
+   Begin Object Name="SlateAccessibleWidgetData_0" ExportPath=/Script/UMG.SlateAccessibleWidgetData'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_25.SlateAccessibleWidgetData_0"'
+   End Object
+   Begin Object Name="SizeBoxSlot_0" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_25.SizeBoxSlot_0"'
+   End Object
+   WidthOverride=100.000000
+   bOverride_WidthOverride=True
+   Slots(0)=/Script/UMG.SizeBoxSlot'"SizeBoxSlot_1"'
+End Object
+Begin Object Class=/Script/UMG.TextBlock Name="TXT_Death_R_User_2" ExportPath=/Script/UMG.TextBlock'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.TXT_Death_R_User_2"'
+   Text=NSLOCTEXT("[447BE350DCB12F36B09844113B5EA4CD]", "F1E06A864C6F7210DAD0F0B0F88A0285", "0")
+   bIsVariable=True
+   DisplayLabel="TXT_Death_R_User_2"
+End Object
+Begin Object Class=/Script/UMG.HorizontalBox Name="HBox_R_User_3" ExportPath=/Script/UMG.HorizontalBox'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_R_User_3"'
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_6" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_R_User_3.HorizontalBoxSlot_6"'
+   End Object
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_5" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_R_User_3.HorizontalBoxSlot_5"'
+   End Object
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_4" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_R_User_3.HorizontalBoxSlot_4"'
+   End Object
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_3" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_R_User_3.HorizontalBoxSlot_3"'
+   End Object
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_2" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_R_User_3.HorizontalBoxSlot_2"'
+   End Object
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_1" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_R_User_3.HorizontalBoxSlot_1"'
+   End Object
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_0" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_R_User_3.HorizontalBoxSlot_0"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_6" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_R_User_3.HorizontalBoxSlot_6"'
+      Parent=/Script/UMG.HorizontalBox'"HBox_R_User_3"'
+      Content=/Script/UMG.Spacer'"Spacer_18"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_5" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_R_User_3.HorizontalBoxSlot_5"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_4" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_R_User_3.HorizontalBoxSlot_4"'
+      Parent=/Script/UMG.HorizontalBox'"HBox_R_User_3"'
+      Content=/Script/UMG.Spacer'"Spacer_17"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_3" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_R_User_3.HorizontalBoxSlot_3"'
+      Parent=/Script/UMG.HorizontalBox'"HBox_R_User_3"'
+      Content=/Script/UMG.SizeBox'"SizeBox_28"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_2" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_R_User_3.HorizontalBoxSlot_2"'
+      Parent=/Script/UMG.HorizontalBox'"HBox_R_User_3"'
+      Content=/Script/UMG.SizeBox'"SizeBox_27"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_1" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_R_User_3.HorizontalBoxSlot_1"'
+      Parent=/Script/UMG.HorizontalBox'"HBox_R_User_3"'
+      Content=/Script/UMG.SizeBox'"SizeBox_26"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_0" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_R_User_3.HorizontalBoxSlot_0"'
+   End Object
+   Slots(0)=/Script/UMG.HorizontalBoxSlot'"HorizontalBoxSlot_1"'
+   Slots(1)=/Script/UMG.HorizontalBoxSlot'"HorizontalBoxSlot_4"'
+   Slots(2)=/Script/UMG.HorizontalBoxSlot'"HorizontalBoxSlot_2"'
+   Slots(3)=/Script/UMG.HorizontalBoxSlot'"HorizontalBoxSlot_6"'
+   Slots(4)=/Script/UMG.HorizontalBoxSlot'"HorizontalBoxSlot_3"'
+   bIsVariable=True
+   bExpandedInDesigner=True
+   DisplayLabel="HBox_R_User_3"
+End Object
+Begin Object Class=/Script/UMG.SizeBox Name="SizeBox_26" ExportPath=/Script/UMG.SizeBox'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_26"'
+   Begin Object Class=/Script/UMG.SizeBoxSlot Name="SizeBoxSlot_1" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_26.SizeBoxSlot_1"'
+   End Object
+   Begin Object Class=/Script/UMG.SlateAccessibleWidgetData Name="SlateAccessibleWidgetData_0" ExportPath=/Script/UMG.SlateAccessibleWidgetData'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_26.SlateAccessibleWidgetData_0"'
+   End Object
+   Begin Object Class=/Script/UMG.SizeBoxSlot Name="SizeBoxSlot_0" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_26.SizeBoxSlot_0"'
+   End Object
+   Begin Object Name="SizeBoxSlot_1" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_26.SizeBoxSlot_1"'
+      Parent=/Script/UMG.SizeBox'"SizeBox_26"'
+      Content=/Script/UMG.TextBlock'"TXT_Name_R_User_3"'
+   End Object
+   Begin Object Name="SlateAccessibleWidgetData_0" ExportPath=/Script/UMG.SlateAccessibleWidgetData'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_26.SlateAccessibleWidgetData_0"'
+   End Object
+   Begin Object Name="SizeBoxSlot_0" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_26.SizeBoxSlot_0"'
+   End Object
+   WidthOverride=200.000000
+   bOverride_WidthOverride=True
+   Slots(0)=/Script/UMG.SizeBoxSlot'"SizeBoxSlot_1"'
+   bExpandedInDesigner=True
+End Object
+Begin Object Class=/Script/UMG.TextBlock Name="TXT_Name_R_User_3" ExportPath=/Script/UMG.TextBlock'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.TXT_Name_R_User_3"'
+   Text=NSLOCTEXT("[447BE350DCB12F36B09844113B5EA4CD]", "E1FDD9284AC240BA822A04BB171846DC", "User9")
+   bIsVariable=True
+   DisplayLabel="TXT_Name_R_User_3"
+End Object
+Begin Object Class=/Script/UMG.Spacer Name="Spacer_17" ExportPath=/Script/UMG.Spacer'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.Spacer_17"'
+   Size=(X=5.000000,Y=1.000000)
+End Object
+Begin Object Class=/Script/UMG.SizeBox Name="SizeBox_27" ExportPath=/Script/UMG.SizeBox'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_27"'
+   Begin Object Class=/Script/UMG.SizeBoxSlot Name="SizeBoxSlot_0" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_27.SizeBoxSlot_0"'
+   End Object
+   Begin Object Class=/Script/UMG.SlateAccessibleWidgetData Name="SlateAccessibleWidgetData_0" ExportPath=/Script/UMG.SlateAccessibleWidgetData'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_27.SlateAccessibleWidgetData_0"'
+   End Object
+   Begin Object Class=/Script/UMG.SizeBoxSlot Name="SizeBoxSlot_1" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_27.SizeBoxSlot_1"'
+   End Object
+   Begin Object Name="SizeBoxSlot_0" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_27.SizeBoxSlot_0"'
+   End Object
+   Begin Object Name="SlateAccessibleWidgetData_0" ExportPath=/Script/UMG.SlateAccessibleWidgetData'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_27.SlateAccessibleWidgetData_0"'
+   End Object
+   Begin Object Name="SizeBoxSlot_1" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_27.SizeBoxSlot_1"'
+      HorizontalAlignment=HAlign_Right
+      Parent=/Script/UMG.SizeBox'"SizeBox_27"'
+      Content=/Script/UMG.TextBlock'"TXT_Kill_R_User_3"'
+   End Object
+   WidthOverride=50.000000
+   bOverride_WidthOverride=True
+   Slots(0)=/Script/UMG.SizeBoxSlot'"SizeBoxSlot_1"'
+End Object
+Begin Object Class=/Script/UMG.TextBlock Name="TXT_Kill_R_User_3" ExportPath=/Script/UMG.TextBlock'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.TXT_Kill_R_User_3"'
+   Text=NSLOCTEXT("[447BE350DCB12F36B09844113B5EA4CD]", "AF545E3444FFC61A2336EA887E62DD98", "0")
+   bIsVariable=True
+   DisplayLabel="TXT_Kill_R_User_3"
+End Object
+Begin Object Class=/Script/UMG.Spacer Name="Spacer_18" ExportPath=/Script/UMG.Spacer'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.Spacer_18"'
+   Size=(X=5.000000,Y=1.000000)
+End Object
+Begin Object Class=/Script/UMG.SizeBox Name="SizeBox_28" ExportPath=/Script/UMG.SizeBox'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_28"'
+   Begin Object Class=/Script/UMG.SizeBoxSlot Name="SizeBoxSlot_1" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_28.SizeBoxSlot_1"'
+   End Object
+   Begin Object Class=/Script/UMG.SlateAccessibleWidgetData Name="SlateAccessibleWidgetData_0" ExportPath=/Script/UMG.SlateAccessibleWidgetData'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_28.SlateAccessibleWidgetData_0"'
+   End Object
+   Begin Object Class=/Script/UMG.SizeBoxSlot Name="SizeBoxSlot_0" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_28.SizeBoxSlot_0"'
+   End Object
+   Begin Object Name="SizeBoxSlot_1" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_28.SizeBoxSlot_1"'
+      HorizontalAlignment=HAlign_Right
+      Parent=/Script/UMG.SizeBox'"SizeBox_28"'
+      Content=/Script/UMG.TextBlock'"TXT_Death_R_User_3"'
+   End Object
+   Begin Object Name="SlateAccessibleWidgetData_0" ExportPath=/Script/UMG.SlateAccessibleWidgetData'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_28.SlateAccessibleWidgetData_0"'
+   End Object
+   Begin Object Name="SizeBoxSlot_0" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_28.SizeBoxSlot_0"'
+   End Object
+   WidthOverride=100.000000
+   bOverride_WidthOverride=True
+   Slots(0)=/Script/UMG.SizeBoxSlot'"SizeBoxSlot_1"'
+End Object
+Begin Object Class=/Script/UMG.TextBlock Name="TXT_Death_R_User_3" ExportPath=/Script/UMG.TextBlock'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.TXT_Death_R_User_3"'
+   Text=NSLOCTEXT("[447BE350DCB12F36B09844113B5EA4CD]", "F1E06A864C6F7210DAD0F0B0F88A0285", "0")
+   bIsVariable=True
+   DisplayLabel="TXT_Death_R_User_3"
+End Object
+Begin Object Class=/Script/UMG.HorizontalBox Name="HBox_R_User_4" ExportPath=/Script/UMG.HorizontalBox'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_R_User_4"'
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_6" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_R_User_4.HorizontalBoxSlot_6"'
+   End Object
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_5" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_R_User_4.HorizontalBoxSlot_5"'
+   End Object
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_4" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_R_User_4.HorizontalBoxSlot_4"'
+   End Object
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_3" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_R_User_4.HorizontalBoxSlot_3"'
+   End Object
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_2" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_R_User_4.HorizontalBoxSlot_2"'
+   End Object
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_1" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_R_User_4.HorizontalBoxSlot_1"'
+   End Object
+   Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_0" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_R_User_4.HorizontalBoxSlot_0"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_6" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_R_User_4.HorizontalBoxSlot_6"'
+      Parent=/Script/UMG.HorizontalBox'"HBox_R_User_4"'
+      Content=/Script/UMG.Spacer'"Spacer_20"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_5" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_R_User_4.HorizontalBoxSlot_5"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_4" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_R_User_4.HorizontalBoxSlot_4"'
+      Parent=/Script/UMG.HorizontalBox'"HBox_R_User_4"'
+      Content=/Script/UMG.Spacer'"Spacer_19"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_3" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_R_User_4.HorizontalBoxSlot_3"'
+      Parent=/Script/UMG.HorizontalBox'"HBox_R_User_4"'
+      Content=/Script/UMG.SizeBox'"SizeBox_31"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_2" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_R_User_4.HorizontalBoxSlot_2"'
+      Parent=/Script/UMG.HorizontalBox'"HBox_R_User_4"'
+      Content=/Script/UMG.SizeBox'"SizeBox_30"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_1" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_R_User_4.HorizontalBoxSlot_1"'
+      Parent=/Script/UMG.HorizontalBox'"HBox_R_User_4"'
+      Content=/Script/UMG.SizeBox'"SizeBox_29"'
+   End Object
+   Begin Object Name="HorizontalBoxSlot_0" ExportPath=/Script/UMG.HorizontalBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.HBox_R_User_4.HorizontalBoxSlot_0"'
+   End Object
+   Slots(0)=/Script/UMG.HorizontalBoxSlot'"HorizontalBoxSlot_1"'
+   Slots(1)=/Script/UMG.HorizontalBoxSlot'"HorizontalBoxSlot_4"'
+   Slots(2)=/Script/UMG.HorizontalBoxSlot'"HorizontalBoxSlot_2"'
+   Slots(3)=/Script/UMG.HorizontalBoxSlot'"HorizontalBoxSlot_6"'
+   Slots(4)=/Script/UMG.HorizontalBoxSlot'"HorizontalBoxSlot_3"'
+   bIsVariable=True
+   bExpandedInDesigner=True
+   DisplayLabel="HBox_R_User_4"
+End Object
+Begin Object Class=/Script/UMG.SizeBox Name="SizeBox_29" ExportPath=/Script/UMG.SizeBox'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_29"'
+   Begin Object Class=/Script/UMG.SizeBoxSlot Name="SizeBoxSlot_1" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_29.SizeBoxSlot_1"'
+   End Object
+   Begin Object Class=/Script/UMG.SlateAccessibleWidgetData Name="SlateAccessibleWidgetData_0" ExportPath=/Script/UMG.SlateAccessibleWidgetData'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_29.SlateAccessibleWidgetData_0"'
+   End Object
+   Begin Object Class=/Script/UMG.SizeBoxSlot Name="SizeBoxSlot_0" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_29.SizeBoxSlot_0"'
+   End Object
+   Begin Object Name="SizeBoxSlot_1" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_29.SizeBoxSlot_1"'
+      Parent=/Script/UMG.SizeBox'"SizeBox_29"'
+      Content=/Script/UMG.TextBlock'"TXT_Name_R_User_4"'
+   End Object
+   Begin Object Name="SlateAccessibleWidgetData_0" ExportPath=/Script/UMG.SlateAccessibleWidgetData'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_29.SlateAccessibleWidgetData_0"'
+   End Object
+   Begin Object Name="SizeBoxSlot_0" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_29.SizeBoxSlot_0"'
+   End Object
+   WidthOverride=200.000000
+   bOverride_WidthOverride=True
+   Slots(0)=/Script/UMG.SizeBoxSlot'"SizeBoxSlot_1"'
+   bExpandedInDesigner=True
+End Object
+Begin Object Class=/Script/UMG.TextBlock Name="TXT_Name_R_User_4" ExportPath=/Script/UMG.TextBlock'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.TXT_Name_R_User_4"'
+   Text=NSLOCTEXT("[447BE350DCB12F36B09844113B5EA4CD]", "B3492D0048271D2A229487A4E929A02E", "User10")
+   bIsVariable=True
+   DisplayLabel="TXT_Name_R_User_4"
+End Object
+Begin Object Class=/Script/UMG.Spacer Name="Spacer_19" ExportPath=/Script/UMG.Spacer'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.Spacer_19"'
+   Size=(X=5.000000,Y=1.000000)
+End Object
+Begin Object Class=/Script/UMG.SizeBox Name="SizeBox_30" ExportPath=/Script/UMG.SizeBox'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_30"'
+   Begin Object Class=/Script/UMG.SizeBoxSlot Name="SizeBoxSlot_0" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_30.SizeBoxSlot_0"'
+   End Object
+   Begin Object Class=/Script/UMG.SlateAccessibleWidgetData Name="SlateAccessibleWidgetData_0" ExportPath=/Script/UMG.SlateAccessibleWidgetData'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_30.SlateAccessibleWidgetData_0"'
+   End Object
+   Begin Object Class=/Script/UMG.SizeBoxSlot Name="SizeBoxSlot_1" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_30.SizeBoxSlot_1"'
+   End Object
+   Begin Object Name="SizeBoxSlot_0" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_30.SizeBoxSlot_0"'
+   End Object
+   Begin Object Name="SlateAccessibleWidgetData_0" ExportPath=/Script/UMG.SlateAccessibleWidgetData'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_30.SlateAccessibleWidgetData_0"'
+   End Object
+   Begin Object Name="SizeBoxSlot_1" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_30.SizeBoxSlot_1"'
+      HorizontalAlignment=HAlign_Right
+      Parent=/Script/UMG.SizeBox'"SizeBox_30"'
+      Content=/Script/UMG.TextBlock'"TXT_Kill_R_User_4"'
+   End Object
+   WidthOverride=50.000000
+   bOverride_WidthOverride=True
+   Slots(0)=/Script/UMG.SizeBoxSlot'"SizeBoxSlot_1"'
+End Object
+Begin Object Class=/Script/UMG.TextBlock Name="TXT_Kill_R_User_4" ExportPath=/Script/UMG.TextBlock'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.TXT_Kill_R_User_4"'
+   Text=NSLOCTEXT("[447BE350DCB12F36B09844113B5EA4CD]", "AF545E3444FFC61A2336EA887E62DD98", "0")
+   bIsVariable=True
+   DisplayLabel="TXT_Kill_R_User_4"
+End Object
+Begin Object Class=/Script/UMG.Spacer Name="Spacer_20" ExportPath=/Script/UMG.Spacer'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.Spacer_20"'
+   Size=(X=5.000000,Y=1.000000)
+End Object
+Begin Object Class=/Script/UMG.SizeBox Name="SizeBox_31" ExportPath=/Script/UMG.SizeBox'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_31"'
+   Begin Object Class=/Script/UMG.SizeBoxSlot Name="SizeBoxSlot_1" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_31.SizeBoxSlot_1"'
+   End Object
+   Begin Object Class=/Script/UMG.SlateAccessibleWidgetData Name="SlateAccessibleWidgetData_0" ExportPath=/Script/UMG.SlateAccessibleWidgetData'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_31.SlateAccessibleWidgetData_0"'
+   End Object
+   Begin Object Class=/Script/UMG.SizeBoxSlot Name="SizeBoxSlot_0" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_31.SizeBoxSlot_0"'
+   End Object
+   Begin Object Name="SizeBoxSlot_1" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_31.SizeBoxSlot_1"'
+      HorizontalAlignment=HAlign_Right
+      Parent=/Script/UMG.SizeBox'"SizeBox_31"'
+      Content=/Script/UMG.TextBlock'"TXT_Death_R_User_4"'
+   End Object
+   Begin Object Name="SlateAccessibleWidgetData_0" ExportPath=/Script/UMG.SlateAccessibleWidgetData'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_31.SlateAccessibleWidgetData_0"'
+   End Object
+   Begin Object Name="SizeBoxSlot_0" ExportPath=/Script/UMG.SizeBoxSlot'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.SizeBox_31.SizeBoxSlot_0"'
+   End Object
+   WidthOverride=100.000000
+   bOverride_WidthOverride=True
+   Slots(0)=/Script/UMG.SizeBoxSlot'"SizeBoxSlot_1"'
+End Object
+Begin Object Class=/Script/UMG.TextBlock Name="TXT_Death_R_User_4" ExportPath=/Script/UMG.TextBlock'"/Game/ui/WB_ScoreBoard.WB_ScoreBoard:WidgetTree.TXT_Death_R_User_4"'
+   Text=NSLOCTEXT("[447BE350DCB12F36B09844113B5EA4CD]", "F1E06A864C6F7210DAD0F0B0F88A0285", "0")
+   bIsVariable=True
+   DisplayLabel="TXT_Death_R_User_4"
+End Object
